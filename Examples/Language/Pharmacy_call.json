@@ -1,0 +1,1399 @@
+{
+    "transcription": {
+        "source": "https://github.com/Azure-Samples/cognitive-services-speech-sdk/raw/master/scenarios/call-center/sampledata/Call3_separated_16k_pharmacy_call.wav",
+        "timestamp": "2022-09-12T23:31:27Z",
+        "durationInTicks": 1207500000,
+        "duration": "PT2M0.75S",
+        "combinedRecognizedPhrases": [
+            {
+                "channel": 0,
+                "lexical": "hi thank you for calling contoso pharmacy who am i speaking with today i understand your frustration mary umm can you tell me what exactly you're trying to accomplish OK uh certainly happy to check that for you one moment please i see here that you were on a generic form of lipitor is that right OK uh so i see that your doctor stopped prescribing these drugs in twenty twenty one actually OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here just a moment so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                "itn": "hi thank you for calling contoso pharmacy who am i speaking with today i understand your frustration mary umm can you tell me what exactly you're trying to accomplish OK uh certainly happy to check that for you one moment please i see here that you were on a generic form of lipitor is that right OK uh so i see that your doctor stopped prescribing these drugs in 2021 actually OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here just a moment so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021 OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                "maskedITN": "hi thank you for calling contoso pharmacy who am i speaking with today i understand your frustration mary umm can you tell me what exactly you're trying to accomplish ok uh certainly happy to check that for you one moment please i see here that you were on a generic form of lipitor is that right ok uh so i see that your doctor stopped prescribing these drugs in 2021 actually ok uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here just a moment so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021 ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                "display": "Hi, thank you for calling Contoso pharmacy. Who am I speaking with today? I understand your frustration, Mary. Umm, can you tell me what exactly you're trying to accomplish? OK, uh, certainly happy to check that for you. One moment please. I see here that you were on a generic form of Lipitor, is that right? OK, uh, so I see that your doctor stopped prescribing these drugs in 2021, actually. OK, uh, yeah, I'd be happy to check that for you. Uh, because sometimes there's a gap in the system and it just doesn't get reported. So let me take a look here. Just a moment. So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021. OK. Uh, yeah. According to the latest records, uh, provided by doctor's office, you're now on a different drug, metformin. Would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams? Uh, you're very welcome, Mary. Please let us know if there's anything else we can do for you today."
+            },
+            {
+                "channel": 1,
+                "lexical": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol uh yes i was taking the generic form of lipitor oh really that doesn't sound right i don't remember him cancelling my prescription ohh huh i mean i'm definitely supposed to be taking something else uh would you check please yeah yeah thank you so much i'm almost out so that'd be perfect OK thank you",
+                "itn": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol uh yes i was taking the generic form of lipitor oh really that doesn't sound right i don't remember him cancelling my prescription ohh huh i mean i'm definitely supposed to be taking something else uh would you check please yeah yeah thank you so much i'm almost out so that'd be perfect OK thank you",
+                "maskedITN": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol uh yes i was taking the generic form of lipitor oh really that doesn't sound right i don't remember him cancelling my prescription ohh huh i mean i'm definitely supposed to be taking something else uh would you check please yeah yeah thank you so much i'm almost out so that'd be perfect ok thank you",
+                "display": "Good afternoon. My name is Mary. I'm calling about a refill for my prescribed medications. I have been trying to get ahold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call. Yes, I'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol. Uh, yes, I was taking the generic form of Lipitor. Oh really? That doesn't sound right. I don't remember him cancelling my prescription. Ohh huh, I mean, I'm definitely supposed to be taking something else. Uh, would you check please? Yeah, yeah. Thank you so much. I'm almost out, so that'd be perfect. OK. Thank you."
+            }
+        ],
+        "recognizedPhrases": [
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT0.79S",
+                "duration": "PT2.84S",
+                "offsetInTicks": 7900000,
+                "durationInTicks": 28400000,
+                "nBest": [
+                    {
+                        "confidence": 0.822353,
+                        "lexical": "hi thank you for calling contoso pharmacy who am i speaking with today",
+                        "itn": "hi thank you for calling contoso pharmacy who am i speaking with today",
+                        "maskedITN": "hi thank you for calling contoso pharmacy who am i speaking with today",
+                        "display": "Hi, thank you for calling Contoso pharmacy. Who am I speaking with today?",
+                        "sentiment": {
+                            "positive": 0.7,
+                            "neutral": 0.29,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8222805,
+                        "lexical": "hi thank you for calling contessa pharmacy who am i speaking with today",
+                        "itn": "hi thank you for calling contessa pharmacy who am i speaking with today",
+                        "maskedITN": "hi thank you for calling contessa pharmacy who am i speaking with today",
+                        "display": "hi thank you for calling contessa pharmacy who am i speaking with today",
+                        "sentiment": {
+                            "positive": 0.7,
+                            "neutral": 0.29,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.7975898,
+                        "lexical": "hi thank you for calling contact pharmacy who am i speaking with today",
+                        "itn": "hi thank you for calling contact pharmacy who am i speaking with today",
+                        "maskedITN": "hi thank you for calling contact pharmacy who am i speaking with today",
+                        "display": "hi thank you for calling contact pharmacy who am i speaking with today",
+                        "sentiment": {
+                            "positive": 0.7,
+                            "neutral": 0.29,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8106459,
+                        "lexical": "hi thank you for calling answer pharmacy who am i speaking with today",
+                        "itn": "hi thank you for calling answer pharmacy who am i speaking with today",
+                        "maskedITN": "hi thank you for calling answer pharmacy who am i speaking with today",
+                        "display": "hi thank you for calling answer pharmacy who am i speaking with today",
+                        "sentiment": {
+                            "positive": 0.7,
+                            "neutral": 0.29,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.811178,
+                        "lexical": "hi thank you for calling contest pharmacy who am i speaking with today",
+                        "itn": "hi thank you for calling contest pharmacy who am i speaking with today",
+                        "maskedITN": "hi thank you for calling contest pharmacy who am i speaking with today",
+                        "display": "hi thank you for calling contest pharmacy who am i speaking with today",
+                        "sentiment": {
+                            "positive": 0.7,
+                            "neutral": 0.29,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 1,
+                "offset": "PT4.74S",
+                "duration": "PT11.8S",
+                "offsetInTicks": 47400000,
+                "durationInTicks": 118000000,
+                "nBest": [
+                    {
+                        "confidence": 0.88369626,
+                        "lexical": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "itn": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call",
+                        "maskedITN": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call",
+                        "display": "Good afternoon. My name is Mary. I'm calling about a refill for my prescribed medications. I have been trying to get ahold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call.",
+                        "sentiment": {
+                            "positive": 0.46,
+                            "neutral": 0.15,
+                            "negative": 0.39
+                        }
+                    },
+                    {
+                        "confidence": 0.88367,
+                        "lexical": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "itn": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "maskedITN": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "display": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "sentiment": {
+                            "positive": 0.46,
+                            "neutral": 0.15,
+                            "negative": 0.39
+                        }
+                    },
+                    {
+                        "confidence": 0.8825726,
+                        "lexical": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "itn": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "maskedITN": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "display": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                        "sentiment": {
+                            "positive": 0.46,
+                            "neutral": 0.15,
+                            "negative": 0.39
+                        }
+                    },
+                    {
+                        "confidence": 0.8695216,
+                        "lexical": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "itn": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "maskedITN": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "display": "good afternoon my name is mary i'm calling about a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "sentiment": {
+                            "positive": 0.46,
+                            "neutral": 0.15,
+                            "negative": 0.39
+                        }
+                    },
+                    {
+                        "confidence": 0.86842424,
+                        "lexical": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "itn": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "maskedITN": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "display": "good afternoon my name is mary i'm calling for a refill for my prescribed medications i have been trying to get a hold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one contacted me so i thought i'd call",
+                        "sentiment": {
+                            "positive": 0.46,
+                            "neutral": 0.15,
+                            "negative": 0.39
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT17.81S",
+                "duration": "PT3.93S",
+                "offsetInTicks": 178100000,
+                "durationInTicks": 39300000,
+                "nBest": [
+                    {
+                        "confidence": 0.8068756,
+                        "lexical": "i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "itn": "i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "maskedITN": "i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "display": "I understand your frustration, Mary. Umm, can you tell me what exactly you're trying to accomplish?",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    },
+                    {
+                        "confidence": 0.8036506,
+                        "lexical": "i understand your frustration mary um can you tell me what exactly you're trying to accomplish",
+                        "itn": "i understand your frustration mary um can you tell me what exactly you're trying to accomplish",
+                        "maskedITN": "i understand your frustration mary um can you tell me what exactly you're trying to accomplish",
+                        "display": "i understand your frustration mary UM can you tell me what exactly you're trying to accomplish",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    },
+                    {
+                        "confidence": 0.78778875,
+                        "lexical": "uh i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "itn": "uh i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "maskedITN": "uh i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "display": "uh i understand your frustration mary umm can you tell me what exactly you're trying to accomplish",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    },
+                    {
+                        "confidence": 0.82174206,
+                        "lexical": "i understand your frustration mary u m can you tell me what exactly you're trying to accomplish",
+                        "itn": "i understand your frustration mary u m can you tell me what exactly you're trying to accomplish",
+                        "maskedITN": "i understand your frustration mary u m can you tell me what exactly you're trying to accomplish",
+                        "display": "i understand your frustration mary U M can you tell me what exactly you're trying to accomplish",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    },
+                    {
+                        "confidence": 0.78706896,
+                        "lexical": "i understand your frustration marry umm can you tell me what exactly you're trying to accomplish",
+                        "itn": "i understand your frustration marry umm can you tell me what exactly you're trying to accomplish",
+                        "maskedITN": "i understand your frustration marry umm can you tell me what exactly you're trying to accomplish",
+                        "display": "i understand your frustration marry umm can you tell me what exactly you're trying to accomplish",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 1,
+                "offset": "PT22.69S",
+                "duration": "PT4.86S",
+                "offsetInTicks": 226900000,
+                "durationInTicks": 48600000,
+                "nBest": [
+                    {
+                        "confidence": 0.87586707,
+                        "lexical": "yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol",
+                        "itn": "yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol",
+                        "maskedITN": "yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol",
+                        "display": "Yes, I'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.93,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.854511,
+                        "lexical": "yes i'm trying to get a refill of my prescription drug so the my doctor prescribed to me for cholesterol",
+                        "itn": "yes i'm trying to get a refill of my prescription drug so the my doctor prescribed to me for cholesterol",
+                        "maskedITN": "yes i'm trying to get a refill of my prescription drug so the my doctor prescribed to me for cholesterol",
+                        "display": "yes i'm trying to get a refill of my prescription drug so the my doctor prescribed to me for cholesterol",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.93,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.8675472,
+                        "lexical": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "itn": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "maskedITN": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "display": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.93,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.8587165,
+                        "lexical": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed me for cholesterol",
+                        "itn": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed me for cholesterol",
+                        "maskedITN": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed me for cholesterol",
+                        "display": "yes i'm trying to get a refill of my prescription drugs so the my doctor prescribed me for cholesterol",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.93,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.86485285,
+                        "lexical": "yes i'm trying to get a refill on my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "itn": "yes i'm trying to get a refill on my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "maskedITN": "yes i'm trying to get a refill on my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "display": "yes i'm trying to get a refill on my prescription drugs so the my doctor prescribed to me for cholesterol",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.93,
+                            "negative": 0.05
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT36.46S",
+                "duration": "PT3.66S",
+                "offsetInTicks": 364600000,
+                "durationInTicks": 36600000,
+                "nBest": [
+                    {
+                        "confidence": 0.90179586,
+                        "lexical": "ok umm so certainly happy to check that for you one moment please, i see here that you were on a generic form of lipitor is that right",
+                        "itn": "i see here that you were on a generic form of lipitor is that right",
+                        "maskedITN": "i see here that you were on a generic form of lipitor is that right",
+                        "display": "I see here that you were on a generic form of Lipitor, is that right?",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.96,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.8980128,
+                        "lexical": "i see here that you are on a generic form of lipitor is that right",
+                        "itn": "i see here that you are on a generic form of lipitor is that right",
+                        "maskedITN": "i see here that you are on a generic form of lipitor is that right",
+                        "display": "i see here that you are on a generic form of lipitor is that right",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.96,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.8700002,
+                        "lexical": "i see here that you were on a generic form of lipitor or is that right",
+                        "itn": "i see here that you were on a generic form of lipitor or is that right",
+                        "maskedITN": "i see here that you were on a generic form of lipitor or is that right",
+                        "display": "i see here that you were on a generic form of lipitor or is that right",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.96,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.8681651,
+                        "lexical": "i see here that you are on a generic form of lipitor or is that right",
+                        "itn": "i see here that you are on a generic form of lipitor or is that right",
+                        "maskedITN": "i see here that you are on a generic form of lipitor or is that right",
+                        "display": "i see here that you are on a generic form of lipitor or is that right",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.96,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.8510702,
+                        "lexical": "i see here that you were on an generic form of lipitor is that right",
+                        "itn": "i see here that you were on an generic form of lipitor is that right",
+                        "maskedITN": "i see here that you were on an generic form of lipitor is that right",
+                        "display": "i see here that you were on an generic form of lipitor is that right",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.96,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 1,
+                "offset": "PT41.04S",
+                "duration": "PT2.46S",
+                "offsetInTicks": 410400000,
+                "durationInTicks": 24600000,
+                "nBest": [
+                    {
+                        "confidence": 0.8824337,
+                        "lexical": "uh yes i was taking the generic form of lipitor",
+                        "itn": "uh yes i was taking the generic form of lipitor",
+                        "maskedITN": "uh yes i was taking the generic form of lipitor",
+                        "display": "Uh, yes, I was taking the generic form of Lipitor.",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8705275,
+                        "lexical": "ah yes i was taking the generic form of lipitor",
+                        "itn": "ah yes i was taking the generic form of lipitor",
+                        "maskedITN": "ah yes i was taking the generic form of lipitor",
+                        "display": "ah yes i was taking the generic form of lipitor",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8786717,
+                        "lexical": "oh yes i was taking the generic form of lipitor",
+                        "itn": "oh yes i was taking the generic form of lipitor",
+                        "maskedITN": "oh yes i was taking the generic form of lipitor",
+                        "display": "oh yes i was taking the generic form of lipitor",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.80698496,
+                        "lexical": "yes i was taking the generic form of lipitor",
+                        "itn": "yes i was taking the generic form of lipitor",
+                        "maskedITN": "yes i was taking the generic form of lipitor",
+                        "display": "yes i was taking the generic form of lipitor",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8365211,
+                        "lexical": "yeah yes i was taking the generic form of lipitor",
+                        "itn": "yeah yes i was taking the generic form of lipitor",
+                        "maskedITN": "yeah yes i was taking the generic form of lipitor",
+                        "display": "yeah yes i was taking the generic form of lipitor",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT44.96S",
+                "duration": "PT5.85S",
+                "offsetInTicks": 449600000,
+                "durationInTicks": 58500000,
+                "nBest": [
+                    {
+                        "confidence": 0.85468405,
+                        "lexical": "OK uh so i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "itn": "OK uh so i see that your doctor stopped prescribing these drugs in 2021 actually",
+                        "maskedITN": "ok uh so i see that your doctor stopped prescribing these drugs in 2021 actually",
+                        "display": "OK, uh, so I see that your doctor stopped prescribing these drugs in 2021, actually.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.94,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.84835666,
+                        "lexical": "ok uh so i see that your doctors stopped prescribing these drugs in twenty twenty one actually",
+                        "itn": "ok uh so i see that your doctors stopped prescribing these drugs in twenty twenty one actually",
+                        "maskedITN": "ok uh so i see that your doctors stopped prescribing these drugs in twenty twenty one actually",
+                        "display": "OK uh so i see that your doctors stopped prescribing these drugs in twenty twenty one actually",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.94,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.8601926,
+                        "lexical": "ok uh so i see that your doctor stop prescribing these drugs in twenty twenty one actually",
+                        "itn": "ok uh so i see that your doctor stop prescribing these drugs in twenty twenty one actually",
+                        "maskedITN": "ok uh so i see that your doctor stop prescribing these drugs in twenty twenty one actually",
+                        "display": "OK uh so i see that your doctor stop prescribing these drugs in twenty twenty one actually",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.94,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.85557616,
+                        "lexical": "ok uh so i see that you're a doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "itn": "ok uh so i see that you're a doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "maskedITN": "ok uh so i see that you're a doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "display": "OK uh so i see that you're a doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.94,
+                            "negative": 0.05
+                        }
+                    },
+                    {
+                        "confidence": 0.85491055,
+                        "lexical": "ok uh so i i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "itn": "ok uh so i i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "maskedITN": "ok uh so i i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "display": "OK uh so i i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.94,
+                            "negative": 0.05
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 1,
+                "offset": "PT51.88S",
+                "duration": "PT3.62S",
+                "offsetInTicks": 518800000,
+                "durationInTicks": 36200000,
+                "nBest": [
+                    {
+                        "confidence": 0.7869282,
+                        "lexical": "oh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "itn": "oh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "maskedITN": "oh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "display": "Oh really? That doesn't sound right. I don't remember him cancelling my prescription.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.21,
+                            "negative": 0.78
+                        }
+                    },
+                    {
+                        "confidence": 0.7861658,
+                        "lexical": "oh really that doesn't sound right i don't remember him canceling my prescription",
+                        "itn": "oh really that doesn't sound right i don't remember him canceling my prescription",
+                        "maskedITN": "oh really that doesn't sound right i don't remember him canceling my prescription",
+                        "display": "oh really that doesn't sound right i don't remember him canceling my prescription",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.21,
+                            "negative": 0.78
+                        }
+                    },
+                    {
+                        "confidence": 0.7799905,
+                        "lexical": "ohh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "itn": "ohh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "maskedITN": "ohh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "display": "ohh really that doesn't sound right i don't remember him cancelling my prescription",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.21,
+                            "negative": 0.78
+                        }
+                    },
+                    {
+                        "confidence": 0.77613443,
+                        "lexical": "ohh really that doesn't sound right i don't remember him canceling my prescription",
+                        "itn": "ohh really that doesn't sound right i don't remember him canceling my prescription",
+                        "maskedITN": "ohh really that doesn't sound right i don't remember him canceling my prescription",
+                        "display": "ohh really that doesn't sound right i don't remember him canceling my prescription",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.21,
+                            "negative": 0.78
+                        }
+                    },
+                    {
+                        "confidence": 0.7904053,
+                        "lexical": "oh really that doesn't sound right i i don't remember him cancelling my prescription",
+                        "itn": "oh really that doesn't sound right i i don't remember him cancelling my prescription",
+                        "maskedITN": "oh really that doesn't sound right i i don't remember him cancelling my prescription",
+                        "display": "oh really that doesn't sound right i i don't remember him cancelling my prescription",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.21,
+                            "negative": 0.78
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT56.81S",
+                "duration": "PT8.6S",
+                "offsetInTicks": 568100000,
+                "durationInTicks": 86000000,
+                "nBest": [
+                    {
+                        "confidence": 0.8701312,
+                        "lexical": "OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "itn": "OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "maskedITN": "ok uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "display": "OK, uh, yeah, I'd be happy to check that for you. Uh, because sometimes there's a gap in the system and it just doesn't get reported. So let me take a look here.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.26,
+                            "negative": 0.73
+                        }
+                    },
+                    {
+                        "confidence": 0.89086306,
+                        "lexical": "ok uh yeah i'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "itn": "ok uh yeah i'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "maskedITN": "ok uh yeah i'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "display": "OK uh yeah i'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.26,
+                            "negative": 0.73
+                        }
+                    },
+                    {
+                        "confidence": 0.8658213,
+                        "lexical": "ok uh yeah i'll be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "itn": "ok uh yeah i'll be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "maskedITN": "ok uh yeah i'll be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "display": "OK uh yeah i'll be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.26,
+                            "negative": 0.73
+                        }
+                    },
+                    {
+                        "confidence": 0.8684227,
+                        "lexical": "ok uh yeah be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "itn": "ok uh yeah be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "maskedITN": "ok uh yeah be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "display": "OK uh yeah be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.26,
+                            "negative": 0.73
+                        }
+                    },
+                    {
+                        "confidence": 0.8891035,
+                        "lexical": "ok uh yeah be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "itn": "ok uh yeah be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "maskedITN": "ok uh yeah be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "display": "OK uh yeah be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.26,
+                            "negative": 0.73
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT1M11.44S",
+                "duration": "PT1.29S",
+                "offsetInTicks": 714400000,
+                "durationInTicks": 12900000,
+                "nBest": [
+                    {
+                        "confidence": 0.7124568,
+                        "lexical": "just a moment",
+                        "itn": "just a moment",
+                        "maskedITN": "just a moment",
+                        "display": "Just a moment.",
+                        "sentiment": {
+                            "positive": 0.06,
+                            "neutral": 0.91,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.4758362,
+                        "lexical": "just the moment",
+                        "itn": "just the moment",
+                        "maskedITN": "just the moment",
+                        "display": "just the moment",
+                        "sentiment": {
+                            "positive": 0.06,
+                            "neutral": 0.91,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.61701584,
+                        "lexical": "just one moment",
+                        "itn": "just one moment",
+                        "maskedITN": "just one moment",
+                        "display": "just one moment",
+                        "sentiment": {
+                            "positive": 0.06,
+                            "neutral": 0.91,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.6985655,
+                        "lexical": "just a moment ago",
+                        "itn": "just a moment ago",
+                        "maskedITN": "just a moment ago",
+                        "display": "just a moment ago",
+                        "sentiment": {
+                            "positive": 0.06,
+                            "neutral": 0.91,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.7222866,
+                        "lexical": "just a moment sir",
+                        "itn": "just a moment sir",
+                        "maskedITN": "just a moment sir",
+                        "display": "just a moment sir",
+                        "sentiment": {
+                            "positive": 0.06,
+                            "neutral": 0.91,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT1M17.32S",
+                "duration": "PT6.5S",
+                "offsetInTicks": 773200000,
+                "durationInTicks": 65000000,
+                "nBest": [
+                    {
+                        "confidence": 0.90996224,
+                        "lexical": "so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "itn": "so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021",
+                        "maskedITN": "so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021",
+                        "display": "So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021.",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8324339,
+                        "lexical": "uh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "itn": "uh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "maskedITN": "uh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "display": "uh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.91029924,
+                        "lexical": "so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "itn": "so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "maskedITN": "so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "display": "so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8641047,
+                        "lexical": "oh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "itn": "oh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "maskedITN": "oh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "display": "oh so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.8327449,
+                        "lexical": "uh so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "itn": "uh so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "maskedITN": "uh so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "display": "uh so i'm seeing here that you're a doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.99,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 1,
+                "offset": "PT1M25.73S",
+                "duration": "PT4.6S",
+                "offsetInTicks": 857300000,
+                "durationInTicks": 46000000,
+                "nBest": [
+                    {
+                        "confidence": 0.7253111,
+                        "lexical": "ohh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "itn": "ohh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "maskedITN": "ohh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "display": "Ohh huh, I mean, I'm definitely supposed to be taking something else. Uh, would you check please?",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.72176623,
+                        "lexical": "ohhh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "itn": "ohhh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "maskedITN": "ohhh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "display": "ohhh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.7322028,
+                        "lexical": "ohf huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "itn": "ohf huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "maskedITN": "ohf huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "display": "ohf huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.73403776,
+                        "lexical": "ohg huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "itn": "ohg huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "maskedITN": "ohg huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "display": "ohg huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.01
+                        }
+                    },
+                    {
+                        "confidence": 0.7321329,
+                        "lexical": "ohk huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "itn": "ohk huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "maskedITN": "ohk huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "display": "ohk huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "offset": "PT1M32.79S",
+                "duration": "PT13S",
+                "offsetInTicks": 927900000,
+                "durationInTicks": 130000000,
+                "nBest": [
+                    {
+                        "confidence": 0.73945653,
+                        "lexical": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                        "itn": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams",
+                        "maskedITN": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams",
+                        "display": "OK. Uh, yeah. According to the latest records, uh, provided by doctor's office, you're now on a different drug, metformin. Would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams?",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.93,
+                            "negative": 0.02
+                        }
+                    },
+                    {
+                        "confidence": 0.7284082,
+                        "lexical": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "itn": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "maskedITN": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "display": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.93,
+                            "negative": 0.02
+                        }
+                    },
+                    {
+                        "confidence": 0.7372437,
+                        "lexical": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of warm in five hundred milligrams",
+                        "itn": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of warm in five hundred milligrams",
+                        "maskedITN": "ok uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of warm in five hundred milligrams",
+                        "display": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of warm in five hundred milligrams",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.93,
+                            "negative": 0.02
+                        }
+                    },
+                    {
+                        "confidence": 0.73961604,
+                        "lexical": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                        "itn": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                        "maskedITN": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                        "display": "OK uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.93,
+                            "negative": 0.02
+                        }
+                    },
+                    {
+                        "confidence": 0.7285678,
+                        "lexical": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "itn": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "maskedITN": "ok uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "display": "OK uh yeah according to the latest records uh provided by doctor's office you're now in a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of orman five hundred milligrams",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.93,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "channel": 1,
+                "duration": "PT3.23S",
+                "offset": "PT1M47.68S",
+                "offsetInTicks": 1076800000,
+                "durationInTicks": 32300000,
+                "recognitionStatus": "Success",
+                "nBest": [
+                    {
+                        "confidence": 0.8699608,
+                        "sentiment": {
+                            "positive": 0.93,
+                            "neutral": 0.06,
+                            "negative": 0.01
+                        },
+                        "itn": "yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "lexical": "yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "maskedITN": "yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "display": "Yeah, yeah. Thank you so much. I'm almost out, so that'd be perfect."
+                    },
+                    {
+                        "confidence": 0.74270284,
+                        "sentiment": {
+                            "positive": 0.93,
+                            "neutral": 0.06,
+                            "negative": 0.01
+                        },
+                        "itn": "uh yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "lexical": "uh yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "display": "uh yeah yeah thank you so much i'm almost out so that'd be perfect",
+                        "maskedITN": "uh yeah yeah thank you so much i'm almost out so that'd be perfect"
+                    },
+                    {
+                        "confidence": 0.8404908,
+                        "sentiment": {
+                            "positive": 0.93,
+                            "neutral": 0.06,
+                            "negative": 0.01
+                        },
+                        "itn": "yeah yeah thank you so much i'm almost out that'd be perfect",
+                        "display": "yeah yeah thank you so much i'm almost out that'd be perfect",
+                        "lexical": "yeah yeah thank you so much i'm almost out that'd be perfect",
+                        "maskedITN": "yeah yeah thank you so much i'm almost out that'd be perfect"
+                    },
+                    {
+                        "confidence": 0.8577216,
+                        "sentiment": {
+                            "positive": 0.93,
+                            "neutral": 0.06,
+                            "negative": 0.01
+                        },
+                        "itn": "yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "display": "yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "lexical": "yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "maskedITN": "yeah yeah thank you so much i'm almost out so that'll be perfect"
+                    },
+                    {
+                        "confidence": 0.73420143,
+                        "sentiment": {
+                            "positive": 0.93,
+                            "neutral": 0.06,
+                            "negative": 0.01
+                        },
+                        "itn": "uh yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "lexical": "uh yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "display": "uh yeah yeah thank you so much i'm almost out so that'll be perfect",
+                        "maskedITN": "uh yeah yeah thank you so much i'm almost out so that'll be perfect"
+                    }
+                ]
+            },
+            {
+                "channel": 0,
+                "duration": "PT3.9S",
+                "offset": "PT1M52.14S",
+                "offsetInTicks": 1121400000,
+                "durationInTicks": 39000000,
+                "recognitionStatus": "Success",
+                "nBest": [
+                    {
+                        "confidence": 0.7017551,
+                        "sentiment": {
+                            "positive": 0.26,
+                            "neutral": 0.73,
+                            "negative": 0.01
+                        },
+                        "lexical": "uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "itn": "uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "maskedITN": "uh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "display": "Uh, you're very welcome, Mary. Please let us know if there's anything else we can do for you today."
+                    },
+                    {
+                        "confidence": 0.7726552,
+                        "sentiment": {
+                            "positive": 0.26,
+                            "neutral": 0.73,
+                            "negative": 0.01
+                        },
+                        "lexical": "you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "itn": "you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "maskedITN": "you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "display": "you're very welcome mary please let us know if there's anything else we can do for you today"
+                    },
+                    {
+                        "confidence": 0.69183564,
+                        "sentiment": {
+                            "positive": 0.26,
+                            "neutral": 0.73,
+                            "negative": 0.01
+                        },
+                        "itn": "uh you're very welcome mary and please let us know if there's anything else we can do for you today",
+                        "lexical": "uh you're very welcome mary and please let us know if there's anything else we can do for you today",
+                        "maskedITN": "uh you're very welcome mary and please let us know if there's anything else we can do for you today",
+                        "display": "uh you're very welcome mary and please let us know if there's anything else we can do for you today"
+                    },
+                    {
+                        "confidence": 0.81419426,
+                        "sentiment": {
+                            "positive": 0.26,
+                            "neutral": 0.73,
+                            "negative": 0.01
+                        },
+                        "display": "oh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "lexical": "oh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "itn": "oh you're very welcome mary please let us know if there's anything else we can do for you today",
+                        "maskedITN": "oh you're very welcome mary please let us know if there's anything else we can do for you today"
+                    },
+                    {
+                        "confidence": 0.6981891,
+                        "sentiment": {
+                            "positive": 0.26,
+                            "neutral": 0.73,
+                            "negative": 0.01
+                        },
+                        "itn": "uh you're very welcome mary please let us know if there's anything else i can do for you today",
+                        "lexical": "uh you're very welcome mary please let us know if there's anything else i can do for you today",
+                        "display": "uh you're very welcome mary please let us know if there's anything else i can do for you today",
+                        "maskedITN": "uh you're very welcome mary please let us know if there's anything else i can do for you today"
+                    }
+                ]
+            },
+            {
+                "channel": 1,
+                "duration": "PT1.13S",
+                "offset": "PT1M57.19S",
+                "offsetInTicks": 1171900000,
+                "durationInTicks": 11300000,
+                "recognitionStatus": "Success",
+                "nBest": [
+                    {
+                        "itn": "OK thank you",
+                        "confidence": 0.8857235,
+                        "lexical": "OK thank you",
+                        "maskedITN": "ok thank you",
+                        "display": "OK. Thank you.",
+                        "sentiment": {
+                            "positive": 0.38,
+                            "neutral": 0.6,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.84280515,
+                        "itn": "ok so thank you",
+                        "display": "OK so thank you",
+                        "lexical": "ok so thank you",
+                        "maskedITN": "ok so thank you",
+                        "sentiment": {
+                            "positive": 0.38,
+                            "neutral": 0.6,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.91839796,
+                        "itn": "ok thank you bye",
+                        "lexical": "ok thank you bye",
+                        "display": "OK thank you bye",
+                        "maskedITN": "ok thank you bye",
+                        "sentiment": {
+                            "positive": 0.38,
+                            "neutral": 0.6,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.74131435,
+                        "itn": "ok and thank you",
+                        "lexical": "ok and thank you",
+                        "display": "OK and thank you",
+                        "maskedITN": "ok and thank you",
+                        "sentiment": {
+                            "positive": 0.38,
+                            "neutral": 0.6,
+                            "negative": 0.03
+                        }
+                    },
+                    {
+                        "confidence": 0.7107127,
+                        "itn": "ok ok thank you",
+                        "lexical": "ok ok thank you",
+                        "display": "OK OK thank you",
+                        "maskedITN": "ok ok thank you",
+                        "sentiment": {
+                            "neutral": 0.6,
+                            "positive": 0.38,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "conversationAnalyticsResults": {
+        "conversationSummaryResults": {
+            "conversations": [
+                {
+                    "id": "conversation1",
+                    "summaries": [
+                        {
+                            "aspect": "issue",
+                            "text": "Customer called about a refill for the prescribed medications"
+                        },
+                        {
+                            "aspect": "resolution",
+                            "text": "Helped customer to fill the prescription\nInformed customer that the prepaid prescription was cancelled"
+                        }
+                    ]
+                }
+            ]
+        },
+        "conversationPiiResults": {
+            "combinedRedactedContent": [
+                {
+                    "channel": "0",
+                    "display": "Hi, thank you for calling Contoso pharmacy. Who am I speaking with today? I understand your frustration, ****. Umm, can you tell me what exactly you're trying to accomplish? OK, uh, certainly happy to check that for you. One moment please. I see here that you were on a generic form of Lipitor, is that right? OK, uh, so I see that your doctor stopped prescribing these drugs in 2021, actually. OK, uh, yeah, I'd be happy to check that for you. Uh, because sometimes there's a gap in the system and it just doesn't get reported. So let me take a look here. Just a moment. So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021. OK. Uh, yeah. According to the latest records, uh, provided by doctor's office, you're now on a different drug, metformin. Would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams? Uh, you're very welcome, ****. Please let us know if there's anything else we can do for you today. ",
+                    "itn": "hi thank you for calling contoso pharmacy who am i speaking with today i understand your frustration **** umm can you tell me what exactly you're trying to accomplish OK uh certainly happy to check that for you one moment please i see here that you were on a generic form of lipitor is that right OK uh so i see that your doctor stopped prescribing these drugs in 2021 actually OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here just a moment so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021 OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams uh you're very welcome **** please let us know if there's anything else we can do for you today ",
+                    "lexical": "hi thank you for calling contoso pharmacy who am i speaking with today i understand your frustration **** umm can you tell me what exactly you're trying to accomplish OK uh certainly happy to check that for you one moment please i see here that you were on a generic form of lipitor is that right OK uh so i see that your doctor stopped prescribing these drugs in twenty twenty one actually OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here just a moment so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams uh you're very welcome **** please let us know if there's anything else we can do for you today "
+                },
+                {
+                    "channel": "1",
+                    "display": "Good afternoon. My name is ****. I'm calling about a refill for my prescribed medications. I have been trying to get ahold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call. Yes, I'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol. Uh, yes, I was taking the generic form of Lipitor. Oh really? That doesn't sound right. I don't remember him cancelling my prescription. Ohh huh, I mean, I'm definitely supposed to be taking something else. Uh, would you check please? Yeah, yeah. Thank you so much. I'm almost out, so that'd be perfect. OK. Thank you. ",
+                    "itn": "good afternoon my name is **** i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol uh yes i was taking the generic form of lipitor oh really that doesn't sound right i don't remember him cancelling my prescription ohh huh i mean i'm definitely supposed to be taking something else uh would you check please yeah yeah thank you so much i'm almost out so that'd be perfect OK thank you ",
+                    "lexical": "good afternoon my name is **** i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol uh yes i was taking the generic form of lipitor oh really that doesn't sound right i don't remember him cancelling my prescription ohh huh i mean i'm definitely supposed to be taking something else uh would you check please yeah yeah thank you so much i'm almost out so that'd be perfect OK thank you "
+                }
+            ],
+            "conversations": [
+                {
+                    "id": "conversation1",
+                    "conversationItems": [
+                        {
+                            "id": "0",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT0.79S",
+                            "redactedContent": {
+                                "itn": "hi thank you for calling contoso pharmacy who am i speaking with today",
+                                "lexical": "hi thank you for calling contoso pharmacy who am i speaking with today",
+                                "text": "Hi, thank you for calling Contoso pharmacy. Who am I speaking with today?"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "channel": "1",
+                            "offset": "PT4.74S",
+                            "entities": [
+                                {
+                                    "length": 4,
+                                    "offset": 26,
+                                    "text": "mary",
+                                    "category": "Name",
+                                    "confidenceScore": 0.96
+                                }
+                            ],
+                            "redactedContent": {
+                                "itn": "good afternoon my name is **** i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one's contacted me so i thought i'd call",
+                                "lexical": "good afternoon my name is **** i'm calling about a refill for my prescribed medications i have been trying to get ahold of someone for weeks and was told that i would get a call back regarding my situation but it's been weeks and no one 's contacted me so i thought i'd call",
+                                "text": "Good afternoon. My name is ****. I'm calling about a refill for my prescribed medications. I have been trying to get ahold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call."
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "channel": "0",
+                            "offset": "PT17.81S",
+                            "entities": [
+                                {
+                                    "length": 4,
+                                    "offset": 30,
+                                    "text": "mary",
+                                    "category": "Name",
+                                    "confidenceScore": 0.94
+                                }
+                            ],
+                            "redactedContent": {
+                                "itn": "i understand your frustration **** umm can you tell me what exactly you're trying to accomplish",
+                                "lexical": "i understand your frustration **** umm can you tell me what exactly you're trying to accomplish",
+                                "text": "I understand your frustration, ****. Umm, can you tell me what exactly you're trying to accomplish?"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT22.69S",
+                            "redactedContent": {
+                                "itn": "yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol",
+                                "lexical": "yes i'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol",
+                                "text": "Yes, I'm trying to get a refill of my prescription drugs that the my doctor prescribed to me for cholesterol."
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT29.18S",
+                            "redactedContent": {
+                                "itn": "OK uh certainly happy to check that for you one moment please",
+                                "lexical": "OK uh certainly happy to check that for you one moment please",
+                                "text": "OK, uh, certainly happy to check that for you. One moment please."
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT36.46S",
+                            "redactedContent": {
+                                "itn": "i see here that you were on a generic form of lipitor is that right",
+                                "lexical": "i see here that you were on a generic form of lipitor is that right",
+                                "text": "I see here that you were on a generic form of Lipitor, is that right?"
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT41.04S",
+                            "redactedContent": {
+                                "itn": "uh yes i was taking the generic form of lipitor",
+                                "lexical": "uh yes i was taking the generic form of lipitor",
+                                "text": "Uh, yes, I was taking the generic form of Lipitor."
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT44.96S",
+                            "redactedContent": {
+                                "itn": "OK uh so i see that your doctor stopped prescribing these drugs in 2021 actually",
+                                "lexical": "OK uh so i see that your doctor stopped prescribing these drugs in twenty twenty one actually",
+                                "text": "OK, uh, so I see that your doctor stopped prescribing these drugs in 2021, actually."
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT51.88S",
+                            "redactedContent": {
+                                "itn": "oh really that doesn't sound right i don't remember him cancelling my prescription",
+                                "lexical": "oh really that doesn't sound right i don't remember him cancelling my prescription",
+                                "text": "Oh really? That doesn't sound right. I don't remember him cancelling my prescription."
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT56.81S",
+                            "redactedContent": {
+                                "itn": "OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                                "lexical": "OK uh yeah i'd be happy to check that for you uh because sometimes there's a gap in the system and it just doesn't get reported so let me take a look here",
+                                "text": "OK, uh, yeah, I'd be happy to check that for you. Uh, because sometimes there's a gap in the system and it just doesn't get reported. So let me take a look here."
+                            }
+                        },
+                        {
+                            "id": "10",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT1M11.44S",
+                            "redactedContent": {
+                                "itn": "just a moment",
+                                "lexical": "just a moment",
+                                "text": "Just a moment."
+                            }
+                        },
+                        {
+                            "id": "11",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT1M17.32S",
+                            "redactedContent": {
+                                "itn": "so i'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021",
+                                "lexical": "so i'm seeing here that your doctor had these drugs prescribed to you from twenty twelve through twenty twenty one",
+                                "text": "So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021."
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT1M25.73S",
+                            "redactedContent": {
+                                "itn": "ohh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                                "lexical": "ohh huh i mean i'm definitely supposed to be taking something else uh would you check please",
+                                "text": "Ohh huh, I mean, I'm definitely supposed to be taking something else. Uh, would you check please?"
+                            }
+                        },
+                        {
+                            "id": "13",
+                            "entities": [],
+                            "channel": "0",
+                            "offset": "PT1M32.79S",
+                            "redactedContent": {
+                                "itn": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams",
+                                "lexical": "OK uh yeah according to the latest records uh provided by doctor's office you're now on a different drug metformin would you like us to go ahead and fill that prescription for you for pick up a bit of form in five hundred milligrams",
+                                "text": "OK. Uh, yeah. According to the latest records, uh, provided by doctor's office, you're now on a different drug, metformin. Would you like us to go ahead and fill that prescription for you for pick up a bit of form in 500 milligrams?"
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT1M47.68S",
+                            "redactedContent": {
+                                "itn": "yeah yeah thank you so much i'm almost out so that'd be perfect",
+                                "lexical": "yeah yeah thank you so much i'm almost out so that'd be perfect",
+                                "text": "Yeah, yeah. Thank you so much. I'm almost out, so that'd be perfect."
+                            }
+                        },
+                        {
+                            "id": "15",
+                            "channel": "0",
+                            "offset": "PT1M52.14S",
+                            "entities": [
+                                {
+                                    "text": "mary",
+                                    "category": "Name",
+                                    "offset": 24,
+                                    "length": 4,
+                                    "confidenceScore": 0.97
+                                }
+                            ],
+                            "redactedContent": {
+                                "itn": "uh you're very welcome **** please let us know if there's anything else we can do for you today",
+                                "lexical": "uh you're very welcome **** please let us know if there's anything else we can do for you today",
+                                "text": "Uh, you're very welcome, ****. Please let us know if there's anything else we can do for you today."
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "entities": [],
+                            "channel": "1",
+                            "offset": "PT1M57.19S",
+                            "redactedContent": {
+                                "itn": "OK thank you",
+                                "lexical": "OK thank you",
+                                "text": "OK. Thank you."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

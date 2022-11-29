@@ -1,0 +1,1241 @@
+{
+    "transcription": {
+        "source": "",
+        "timestamp": "2022-09-29T03:10:19Z",
+        "durationInTicks": 1824400000,
+        "duration": "PT3M2.44S",
+        "combinedRecognizedPhrases": [
+            {
+                "channel": 0,
+                "lexical": "good afternoon this is sam thank you for calling contessa how may i help hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there and are you planning to sell your current home yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells i see um would you mind holding for a moment while i take your information down yeah no problem thank you for your help one moment alright thank you for your patience ma'am uh may i have your first and last name please yes my name is mary smith thank you miss smith may i have your current address please yes so my address is one two three main street in los angeles california and the zip code is nine zero nine two three sorry that was a nine zero what nine zero nine two three nine zero nine two three on main street got it thank you uh may i have your phone number as well please yes my phone number is five zero four five two nine two three five one and then five one got it um and uh do you have an email address um we i can associate with this application uh yes so my email address is mary dot A dot S M seventy eight at gmail dot com mary dot a was that a S N as in november or M as in mike uh M as in mike like seventy eight uh got it right thank you miss smith um do you currently have any other loans uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about fourteen hundred per month combined and my interest rate is eight percent i see and you're currently paying those loans off monthly is that right yes of course i do OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at WWW dot contoso loans dot com yeah that sounds good i can go ahead and get started thank you for your help thank you",
+                "itn": "good afternoon this is sam thank you for calling contessa how may i help hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there and are you planning to sell your current home yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells i see um would you mind holding for a moment while i take your information down yeah no problem thank you for your help one moment alright thank you for your patience ma'am uh may i have your first and last name please yes my name is mary smith thank you miss smith may i have your current address please yes so my address is 123 main st in los angeles CA and the zip code is 90923 sorry that was a 90 what 90923 90923 on main street got it thank you uh may i have your phone number as well please yes my phone number is 504 5292351 and then 51 got it um and uh do you have an email address um we i can associate with this application uh yes so my email address is mary.a.sm78@gmail.com mary dot a was that a SN as in november or M as in mike uh M as in mike like 78 uh got it right thank you miss smith um do you currently have any other loans uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8% i see and you're currently paying those loans off monthly is that right yes of course i do OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com yeah that sounds good i can go ahead and get started thank you for your help thank you",
+                "maskedITN": "good afternoon this is sam thank you for calling contessa how may i help hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan ok i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there and are you planning to sell your current home yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells i see um would you mind holding for a moment while i take your information down yeah no problem thank you for your help one moment alright thank you for your patience ma'am uh may i have your first and last name please yes my name is mary smith thank you miss smith may i have your current address please yes so my address is 123 main st in los angeles ca and the zip code is 90923 sorry that was a 90 what 90923 90923 on main street got it thank you uh may i have your phone number as well please yes my phone number is 504 5292351 and then 51 got it um and uh do you have an e-mail address um we i can associate with this application uh yes so my e-mail address is mary.a.sm78@gmail.com mary dot a was that a sn as in november or m as in mike uh m as in mike like 78 uh got it right thank you miss smith um do you currently have any other loans uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8% i see and you're currently paying those loans off monthly is that right yes of course i do ok thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com yeah that sounds good i can go ahead and get started thank you for your help thank you",
+                "display": "Good afternoon. This is Sam. Thank you for calling Contessa. How may I help? Hi there, my name is Mary. I'm currently living in Los Angeles, but I'm planning to move to Las Vegas and I would like to apply for a loan. OK, I see you're living in California. Let me make sure I understand you correctly. Uh, you'd like to apply for a loan, even though you'll be moving soon, is that right? Yes, exactly. So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there. And are you planning to sell your current home? Yes, I will be listing it on the market soon and hopefully it'll sell quickly. That's why I'm applying for a loan now so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells. I see. Um, would you mind holding for a moment while I take your information down? Yeah, no problem. Thank you for your help. One moment. Alright, thank you for your patience, ma'am. Uh, may I have your first and last name please? Yes, my name is Mary Smith. Thank you, Miss Smith. May I have your current address please? Yes, so my address is 123 Main St in Los Angeles, CA and the ZIP code is 90923. Sorry, that was a 90. What? 90923. 90923 on Main Street. Got it. Thank you. Uh, may I have your phone number as well, please? Yes, my phone number is 504. 5292351 and then? 51. Got it. Um and uh, do you have an e-mail address? Um, we I can associate with this application? Uh, yes. So my e-mail address is mary.a.sm78@gmail.com. Mary dot a. Was that a SN as in November or M as in Mike? Uh, M as in Mike. Like 78? Uh, got it. Right. Thank you, Miss Smith. Um, do you currently have any other loans? Uh, yes. So I currently have two other loans through CONTOSO. Uh, so my first one is my car loan and then my other is my student loan. Uh. They total about 1400 per month combined and my interest rate is 8%. I see. And you're currently paying those loans off monthly, is that right? Yes, of course I do. OK, thank you. Umm, here's what I suggest we do. Uh, let me place you on a brief hold again so I can talk with one of my loan officers and get this started for you immediately. And in the meantime, uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com. Yeah, that sounds good. I can go ahead and get started. Thank you for your help. Thank you."
+            }
+        ],
+        "recognizedPhrases": [
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT0.99S",
+                "duration": "PT3.01S",
+                "offsetInTicks": 9900000,
+                "durationInTicks": 30100000,
+                "nBest": [
+                    {
+                        "confidence": 0.8169576,
+                        "lexical": "good afternoon this is sam thank you for calling contessa how may i help",
+                        "itn": "good afternoon this is sam thank you for calling contessa how may i help",
+                        "maskedITN": "good afternoon this is sam thank you for calling contessa how may i help",
+                        "display": "Good afternoon. This is Sam. Thank you for calling Contessa. How may I help?",
+                        "sentiment": {
+                            "positive": 0.72,
+                            "neutral": 0.26,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT5.11S",
+                "duration": "PT5.58S",
+                "offsetInTicks": 51100000,
+                "durationInTicks": 55800000,
+                "nBest": [
+                    {
+                        "confidence": 0.90344167,
+                        "lexical": "hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan",
+                        "itn": "hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan",
+                        "maskedITN": "hi there my name is mary i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan",
+                        "display": "Hi there, my name is Mary. I'm currently living in Los Angeles, but I'm planning to move to Las Vegas and I would like to apply for a loan.",
+                        "sentiment": {
+                            "positive": 0.1,
+                            "neutral": 0.87,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT12.64S",
+                "duration": "PT7.61S",
+                "offsetInTicks": 126400000,
+                "durationInTicks": 76100000,
+                "nBest": [
+                    {
+                        "confidence": 0.8522715,
+                        "lexical": "OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right",
+                        "itn": "OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right",
+                        "maskedITN": "ok i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right",
+                        "display": "OK, I see you're living in California. Let me make sure I understand you correctly. Uh, you'd like to apply for a loan, even though you'll be moving soon, is that right?",
+                        "sentiment": {
+                            "positive": 0.13,
+                            "neutral": 0.84,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT21.46S",
+                "duration": "PT5.9S",
+                "offsetInTicks": 214600000,
+                "durationInTicks": 59000000,
+                "nBest": [
+                    {
+                        "confidence": 0.85348654,
+                        "lexical": "yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there",
+                        "itn": "yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there",
+                        "maskedITN": "yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there",
+                        "display": "Yes, exactly. So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there.",
+                        "sentiment": {
+                            "positive": 0.19,
+                            "neutral": 0.76,
+                            "negative": 0.05
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT28.95S",
+                "duration": "PT1.96S",
+                "offsetInTicks": 289500000,
+                "durationInTicks": 19600000,
+                "nBest": [
+                    {
+                        "confidence": 0.86648816,
+                        "lexical": "and are you planning to sell your current home",
+                        "itn": "and are you planning to sell your current home",
+                        "maskedITN": "and are you planning to sell your current home",
+                        "display": "And are you planning to sell your current home?",
+                        "sentiment": {
+                            "positive": 0.03,
+                            "neutral": 0.95,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT32.12S",
+                "duration": "PT9.06S",
+                "offsetInTicks": 321200000,
+                "durationInTicks": 90600000,
+                "nBest": [
+                    {
+                        "confidence": 0.8375811,
+                        "lexical": "yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells",
+                        "itn": "yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells",
+                        "maskedITN": "yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells",
+                        "display": "Yes, I will be listing it on the market soon and hopefully it'll sell quickly. That's why I'm applying for a loan now so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells.",
+                        "sentiment": {
+                            "positive": 0.63,
+                            "neutral": 0.35,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT42.65S",
+                "duration": "PT3.73S",
+                "offsetInTicks": 426500000,
+                "durationInTicks": 37300000,
+                "nBest": [
+                    {
+                        "confidence": 0.78709954,
+                        "lexical": "i see um would you mind holding for a moment while i take your information down",
+                        "itn": "i see um would you mind holding for a moment while i take your information down",
+                        "maskedITN": "i see um would you mind holding for a moment while i take your information down",
+                        "display": "I see. Um, would you mind holding for a moment while I take your information down?",
+                        "sentiment": {
+                            "positive": 0.03,
+                            "neutral": 0.93,
+                            "negative": 0.03
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT47.31S",
+                "duration": "PT1.65S",
+                "offsetInTicks": 473100000,
+                "durationInTicks": 16500000,
+                "nBest": [
+                    {
+                        "confidence": 0.93808013,
+                        "lexical": "yeah no problem thank you for your help",
+                        "itn": "yeah no problem thank you for your help",
+                        "maskedITN": "yeah no problem thank you for your help",
+                        "display": "Yeah, no problem. Thank you for your help.",
+                        "sentiment": {
+                            "positive": 0.97,
+                            "neutral": 0.02,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT50.75S",
+                "duration": "PT1.02S",
+                "offsetInTicks": 507500000,
+                "durationInTicks": 10200000,
+                "nBest": [
+                    {
+                        "confidence": 0.024596669,
+                        "lexical": "one moment",
+                        "itn": "one moment",
+                        "maskedITN": "one moment",
+                        "display": "One moment.",
+                        "sentiment": {
+                            "positive": 0.05,
+                            "neutral": 0.9,
+                            "negative": 0.04
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT58.84S",
+                "duration": "PT3.83S",
+                "offsetInTicks": 588400000,
+                "durationInTicks": 38300000,
+                "nBest": [
+                    {
+                        "confidence": 0.9088119,
+                        "lexical": "alright thank you for your patience ma'am uh may i have your first and last name please",
+                        "itn": "alright thank you for your patience ma'am uh may i have your first and last name please",
+                        "maskedITN": "alright thank you for your patience ma'am uh may i have your first and last name please",
+                        "display": "Alright, thank you for your patience, ma'am. Uh, may I have your first and last name please?",
+                        "sentiment": {
+                            "positive": 0.95,
+                            "neutral": 0.04,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M3.61S",
+                "duration": "PT2.11S",
+                "offsetInTicks": 636100000,
+                "durationInTicks": 21100000,
+                "nBest": [
+                    {
+                        "confidence": 0.8887075,
+                        "lexical": "yes my name is mary smith",
+                        "itn": "yes my name is mary smith",
+                        "maskedITN": "yes my name is mary smith",
+                        "display": "Yes, my name is Mary Smith.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.98,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT1M7.62S",
+                "duration": "PT2.97S",
+                "offsetInTicks": 676200000,
+                "durationInTicks": 29700000,
+                "nBest": [
+                    {
+                        "confidence": 0.8426259,
+                        "lexical": "thank you miss smith may i have your current address please",
+                        "itn": "thank you miss smith may i have your current address please",
+                        "maskedITN": "thank you miss smith may i have your current address please",
+                        "display": "Thank you, Miss Smith. May I have your current address please?",
+                        "sentiment": {
+                            "positive": 0.95,
+                            "neutral": 0.04,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M11.54S",
+                "duration": "PT7.15S",
+                "offsetInTicks": 715400000,
+                "durationInTicks": 71500000,
+                "nBest": [
+                    {
+                        "confidence": 0.9402247,
+                        "lexical": "yes so my address is one two three main street in los angeles california and the zip code is nine zero nine two three",
+                        "itn": "yes so my address is 123 main st in los angeles CA and the zip code is 90923",
+                        "maskedITN": "yes so my address is 123 main st in los angeles ca and the zip code is 90923",
+                        "display": "Yes, so my address is 123 Main St in Los Angeles, CA and the ZIP code is 90923.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.98,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT1M20.54S",
+                "duration": "PT2.38S",
+                "offsetInTicks": 805400000,
+                "durationInTicks": 23800000,
+                "nBest": [
+                    {
+                        "confidence": 0.7568138,
+                        "lexical": "sorry that was a nine zero what",
+                        "itn": "sorry that was a 90 what",
+                        "maskedITN": "sorry that was a 90 what",
+                        "display": "Sorry, that was a 90. What?",
+                        "sentiment": {
+                            "positive": 0,
+                            "neutral": 0.02,
+                            "negative": 0.98
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M24.19S",
+                "duration": "PT2.04S",
+                "offsetInTicks": 841900000,
+                "durationInTicks": 20400000,
+                "nBest": [
+                    {
+                        "confidence": 0.87473255,
+                        "lexical": "nine zero nine two three",
+                        "itn": "90923",
+                        "maskedITN": "90923",
+                        "display": "90923.",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT1M27.63S",
+                "duration": "PT6.17S",
+                "offsetInTicks": 876300000,
+                "durationInTicks": 61700000,
+                "nBest": [
+                    {
+                        "confidence": 0.68036044,
+                        "lexical": "nine zero nine two three on main street got it thank you uh may i have your phone number as well please",
+                        "itn": "90923 on main street got it thank you uh may i have your phone number as well please",
+                        "maskedITN": "90923 on main street got it thank you uh may i have your phone number as well please",
+                        "display": "90923 on Main Street. Got it. Thank you. Uh, may I have your phone number as well, please?",
+                        "sentiment": {
+                            "positive": 0.72,
+                            "neutral": 0.23,
+                            "negative": 0.05
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M34.91S",
+                "duration": "PT2.75S",
+                "offsetInTicks": 949100000,
+                "durationInTicks": 27500000,
+                "nBest": [
+                    {
+                        "confidence": 0.947477,
+                        "lexical": "yes my phone number is five zero four",
+                        "itn": "yes my phone number is 504",
+                        "maskedITN": "yes my phone number is 504",
+                        "display": "Yes, my phone number is 504.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.99,
+                            "negative": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M38.35S",
+                "duration": "PT4.25S",
+                "offsetInTicks": 983500000,
+                "durationInTicks": 42500000,
+                "nBest": [
+                    {
+                        "confidence": 0.79971415,
+                        "lexical": "five two nine two three five one and then",
+                        "itn": "5292351 and then",
+                        "maskedITN": "5292351 and then",
+                        "display": "5292351 and then?",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.97,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT1M44.15S",
+                "duration": "PT0.97S",
+                "offsetInTicks": 1041500000,
+                "durationInTicks": 9700000,
+                "nBest": [
+                    {
+                        "confidence": 0.24136835,
+                        "lexical": "five one",
+                        "itn": "51",
+                        "maskedITN": "51",
+                        "display": "51.",
+                        "sentiment": {
+                            "positive": 0.07,
+                            "neutral": 0.86,
+                            "negative": 0.07
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT1M46.61S",
+                "duration": "PT5.95S",
+                "offsetInTicks": 1066100000,
+                "durationInTicks": 59500000,
+                "nBest": [
+                    {
+                        "confidence": 0.74738973,
+                        "lexical": "got it um and uh do you have an email address um we i can associate with this application",
+                        "itn": "got it um and uh do you have an email address um we i can associate with this application",
+                        "maskedITN": "got it um and uh do you have an e-mail address um we i can associate with this application",
+                        "display": "Got it. Um and uh, do you have an e-mail address? Um, we I can associate with this application?",
+                        "sentiment": {
+                            "positive": 0.07,
+                            "neutral": 0.91,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT1M53.54S",
+                "duration": "PT7.47S",
+                "offsetInTicks": 1135400000,
+                "durationInTicks": 74700000,
+                "nBest": [
+                    {
+                        "confidence": 0.8758763,
+                        "lexical": "uh yes so my email address is mary dot A dot S M seventy eight at gmail dot com",
+                        "itn": "uh yes so my email address is mary.a.sm78@gmail.com",
+                        "maskedITN": "uh yes so my e-mail address is mary.a.sm78@gmail.com",
+                        "display": "Uh, yes. So my e-mail address is mary.a.sm78@gmail.com.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.98,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT2M2.65S",
+                "duration": "PT5.68S",
+                "offsetInTicks": 1226500000,
+                "durationInTicks": 56800000,
+                "nBest": [
+                    {
+                        "confidence": 0.68149215,
+                        "lexical": "mary dot a was that a S N as in november or M as in mike",
+                        "itn": "mary dot a was that a SN as in november or M as in mike",
+                        "maskedITN": "mary dot a was that a sn as in november or m as in mike",
+                        "display": "Mary dot a. Was that a SN as in November or M as in Mike?",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.97,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT2M9.24S",
+                "duration": "PT1.18S",
+                "offsetInTicks": 1292400000,
+                "durationInTicks": 11800000,
+                "nBest": [
+                    {
+                        "confidence": 0.6924885,
+                        "lexical": "uh M as in mike",
+                        "itn": "uh M as in mike",
+                        "maskedITN": "uh m as in mike",
+                        "display": "Uh, M as in Mike.",
+                        "sentiment": {
+                            "positive": 0.01,
+                            "neutral": 0.98,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT2M11.42S",
+                "duration": "PT6.55S",
+                "offsetInTicks": 1314200000,
+                "durationInTicks": 65500000,
+                "nBest": [
+                    {
+                        "confidence": 0.7034824,
+                        "lexical": "like seventy eight uh got it right thank you miss smith um do you currently have any other loans",
+                        "itn": "like 78 uh got it right thank you miss smith um do you currently have any other loans",
+                        "maskedITN": "like 78 uh got it right thank you miss smith um do you currently have any other loans",
+                        "display": "Like 78? Uh, got it. Right. Thank you, Miss Smith. Um, do you currently have any other loans?",
+                        "sentiment": {
+                            "positive": 0.95,
+                            "neutral": 0.04,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT2M19.29S",
+                "duration": "PT11.82S",
+                "offsetInTicks": 1392900000,
+                "durationInTicks": 118200000,
+                "nBest": [
+                    {
+                        "confidence": 0.84657955,
+                        "lexical": "uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about fourteen hundred per month combined and my interest rate is eight percent",
+                        "itn": "uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8%",
+                        "maskedITN": "uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8%",
+                        "display": "Uh, yes. So I currently have two other loans through CONTOSO. Uh, so my first one is my car loan and then my other is my student loan. Uh. They total about 1400 per month combined and my interest rate is 8%.",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT2M32.58S",
+                "duration": "PT2.87S",
+                "offsetInTicks": 1525800000,
+                "durationInTicks": 28700000,
+                "nBest": [
+                    {
+                        "confidence": 0.81369615,
+                        "lexical": "i see and you're currently paying those loans off monthly is that right",
+                        "itn": "i see and you're currently paying those loans off monthly is that right",
+                        "maskedITN": "i see and you're currently paying those loans off monthly is that right",
+                        "display": "I see. And you're currently paying those loans off monthly, is that right?",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.96,
+                            "negative": 0.02
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT2M36.46S",
+                "duration": "PT1.13S",
+                "offsetInTicks": 1564600000,
+                "durationInTicks": 11300000,
+                "nBest": [
+                    {
+                        "confidence": 0.8240527,
+                        "lexical": "yes of course i do",
+                        "itn": "yes of course i do",
+                        "maskedITN": "yes of course i do",
+                        "display": "Yes, of course I do.",
+                        "sentiment": {
+                            "positive": 0.02,
+                            "neutral": 0.98,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT2M39.32S",
+                "duration": "PT18.19S",
+                "offsetInTicks": 1593200000,
+                "durationInTicks": 181900000,
+                "nBest": [
+                    {
+                        "confidence": 0.79872763,
+                        "lexical": "OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at WWW dot contoso loans dot com",
+                        "itn": "OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com",
+                        "maskedITN": "ok thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com",
+                        "display": "OK, thank you. Umm, here's what I suggest we do. Uh, let me place you on a brief hold again so I can talk with one of my loan officers and get this started for you immediately. And in the meantime, uh would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com.",
+                        "sentiment": {
+                            "positive": 0.98,
+                            "neutral": 0.01,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 2,
+                "offset": "PT2M58.53S",
+                "duration": "PT2.91S",
+                "offsetInTicks": 1785300000,
+                "durationInTicks": 29100000,
+                "nBest": [
+                    {
+                        "confidence": 0.8605536,
+                        "lexical": "yeah that sounds good i can go ahead and get started thank you for your help",
+                        "itn": "yeah that sounds good i can go ahead and get started thank you for your help",
+                        "maskedITN": "yeah that sounds good i can go ahead and get started thank you for your help",
+                        "display": "Yeah, that sounds good. I can go ahead and get started. Thank you for your help.",
+                        "sentiment": {
+                            "positive": 0.96,
+                            "neutral": 0.03,
+                            "negative": 0.01
+                        }
+                    }
+                ]
+            },
+            {
+                "recognitionStatus": "Success",
+                "channel": 0,
+                "speaker": 1,
+                "offset": "PT3M1.97S",
+                "duration": "PT0.43S",
+                "offsetInTicks": 1819700000,
+                "durationInTicks": 4300000,
+                "nBest": [
+                    {
+                        "confidence": 0.8605536,
+                        "lexical": "thank you",
+                        "itn": "thank you",
+                        "maskedITN": "thank you",
+                        "display": "Thank you.",
+                        "sentiment": {
+                            "positive": 0.72,
+                            "neutral": 0.23,
+                            "negative": 0.05
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "conversationAnalyticsResults": {
+        "conversationSummaryResults": {
+            "conversations": [
+                {
+                    "id": "conversation1",
+                    "summaries": [
+                        {
+                            "aspect": "issue",
+                            "text": "Customer wants to apply for a loan"
+                        },
+                        {
+                            "aspect": "resolution",
+                            "text": "Asked for customer information and then asked for e-mail address | Asked for the phone number | Placed customer on a brief hold again"
+                        }
+                    ],
+                    "warnings": []
+                }
+            ],
+            "errors": [],
+            "modelVersion": "2022-05-15-preview"
+        },
+        "conversationPiiResults": {
+            "combinedRedactedContent": [
+                {
+                    "channel": 0,
+                    "display": "Good afternoon. This is ***. Thank you for calling ********. How may I help? OK, I see you're living in California. Let me make sure I understand you correctly. Uh, you'd like to apply for a loan, even though you'll be moving soon, is that right? And are you planning to sell your current home? I see. Um, would you mind holding for a moment while I take your information down? One moment. Alright, thank you for your patience, ma'am. Uh, may I have your first and last name please? Thank you, Miss *****. May I have your current address please? ********************. ****? ********************. Got it. Thank you. Uh, may I have your phone number as well, please? **. Got it. Um and uh, do you have an e-mail address? Um, we I can associate with this application? **********. ********************************************? *******? Uh, got it. Right. Thank you, Miss *****. Um, do you currently have any other loans? I see. And you're currently paying those loans off monthly, is that right? OK, thank you. Umm, here's what I suggest we do. Uh, let me place you on a brief hold again so I can talk with one of my loan officers and get this started for you immediately. And in the meantime, uh would be great if you could take a few minutes and complete the remainder of the secure application online at ********************. Thank you. ",
+                    "itn": "good afternoon this is *** thank you for calling ******** how may i help OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right and are you planning to sell your current home i see um would you mind holding for a moment while i take your information down one moment alright thank you for your patience ma'am uh may i have your first and last name please thank you miss ***** may i have your current address please ******************* **** ******************** got it thank you uh may i have your phone number as well please ** got it um and uh do you have an email address um we i can associate with this application ********** ******************************************** ******* uh got it right thank you miss ***** um do you currently have any other loans i see and you're currently paying those loans off monthly is that right OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at ******************** thank you ",
+                    "lexical": "good afternoon this is *** thank you for calling ******** how may i help OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right and are you planning to sell your current home i see um would you mind holding for a moment while i take your information down one moment alright thank you for your patience ma'am uh may i have your first and last name please thank you miss ***** may i have your current address please ************************** **** *************************************** got it thank you uh may i have your phone number as well please ******** got it um and uh do you have an email address um we i can associate with this application ********** ********************************************* ****************** uh got it right thank you miss ***** um do you currently have any other loans i see and you're currently paying those loans off monthly is that right OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at ***************************** thank you "
+                },
+                {
+                    "channel": 1,
+                    "display": "Hi there, my name is ****. I'm currently living in Los Angeles, but I'm planning to move to Las Vegas and I would like to apply for a loan. Yes, exactly. So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there. Yes, I will be listing it on the market soon and hopefully it'll sell quickly. That's why I'm applying for a loan now so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells. Yeah, no problem. Thank you for your help. Yes, my name is **********. Yes, so my address is ********************************************************* *****. Yes, my phone number is *04. ****************? Uh, yes. So my e-mail address is *********************. ****************. Uh, yes. So I currently have two other loans through CONTOSO. Uh, so my first one is my car loan and then my other is my student loan. Uh. They total about 1400 per month combined and my interest rate is 8%. Yes, of course I do. Yeah, that sounds good. I can go ahead and get started. Thank you for your help. ",
+                    "itn": "hi there my name is **** i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells yeah no problem thank you for your help yes my name is ********** yes so my address is ******************************************************* ***** yes my phone number is *** **************** uh yes so my email address is ********************* *************** uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8% yes of course i do yeah that sounds good i can go ahead and get started thank you for your help ",
+                    "lexical": "hi there my name is **** i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells yeah no problem thank you for your help yes my name is ********** yes so my address is ************************************************************************************************ ************************ yes my phone number is ************** ***************************************** uh yes so my email address is ************************************************* *************** uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about fourteen hundred per month combined and my interest rate is eight percent yes of course i do yeah that sounds good i can go ahead and get started thank you for your help "
+                }
+            ],
+            "conversations": [
+                {
+                    "id": "conversation1",
+                    "conversationItems": [
+                        {
+                            "id": "0",
+                            "redactedContent": {
+                                "itn": "good afternoon this is *** thank you for calling ******** how may i help",
+                                "lexical": "good afternoon this is *** thank you for calling ******** how may i help",
+                                "text": "Good afternoon. This is ***. Thank you for calling ********. How may I help?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "Sam",
+                                    "category": "Name",
+                                    "offset": 24,
+                                    "length": 3,
+                                    "confidenceScore": 0.95
+                                },
+                                {
+                                    "text": "Contessa",
+                                    "category": "Name",
+                                    "offset": 51,
+                                    "length": 8,
+                                    "confidenceScore": 0.89
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT0.99S"
+                        },
+                        {
+                            "id": "1",
+                            "redactedContent": {
+                                "itn": "hi there my name is **** i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan",
+                                "lexical": "hi there my name is **** i'm currently living in los angeles but i'm planning to move to las vegas and i would like to apply for a loan",
+                                "text": "Hi there, my name is ****. I'm currently living in Los Angeles, but I'm planning to move to Las Vegas and I would like to apply for a loan."
+                            },
+                            "entities": [
+                                {
+                                    "text": "Mary",
+                                    "category": "Name",
+                                    "offset": 21,
+                                    "length": 4,
+                                    "confidenceScore": 0.96
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT5.11S"
+                        },
+                        {
+                            "id": "2",
+                            "redactedContent": {
+                                "itn": "OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right",
+                                "lexical": "OK i see you're living in california let me make sure i understand you correctly uh you'd like to apply for a loan even though you'll be moving soon is that right",
+                                "text": "OK, I see you're living in California. Let me make sure I understand you correctly. Uh, you'd like to apply for a loan, even though you'll be moving soon, is that right?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT12.64S"
+                        },
+                        {
+                            "id": "3",
+                            "redactedContent": {
+                                "itn": "yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there",
+                                "lexical": "yes exactly so i'm planning to relocate soon but i would like to apply for the loan first so that i can purchase a new home once i move there",
+                                "text": "Yes, exactly. So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT21.46S"
+                        },
+                        {
+                            "id": "4",
+                            "redactedContent": {
+                                "itn": "and are you planning to sell your current home",
+                                "lexical": "and are you planning to sell your current home",
+                                "text": "And are you planning to sell your current home?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT28.95S"
+                        },
+                        {
+                            "id": "5",
+                            "redactedContent": {
+                                "itn": "yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells",
+                                "lexical": "yes i will be listing it on the market soon and hopefully it'll sell quickly that's why i'm applying for a loan now so that i can purchase a new house in nevada and close on it quickly as well once my current home sells",
+                                "text": "Yes, I will be listing it on the market soon and hopefully it'll sell quickly. That's why I'm applying for a loan now so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT32.12S"
+                        },
+                        {
+                            "id": "6",
+                            "redactedContent": {
+                                "itn": "i see um would you mind holding for a moment while i take your information down",
+                                "lexical": "i see um would you mind holding for a moment while i take your information down",
+                                "text": "I see. Um, would you mind holding for a moment while I take your information down?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT42.65S"
+                        },
+                        {
+                            "id": "7",
+                            "redactedContent": {
+                                "itn": "yeah no problem thank you for your help",
+                                "lexical": "yeah no problem thank you for your help",
+                                "text": "Yeah, no problem. Thank you for your help."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT47.31S"
+                        },
+                        {
+                            "id": "8",
+                            "redactedContent": {
+                                "itn": "one moment",
+                                "lexical": "one moment",
+                                "text": "One moment."
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT50.75S"
+                        },
+                        {
+                            "id": "9",
+                            "redactedContent": {
+                                "itn": "alright thank you for your patience ma'am uh may i have your first and last name please",
+                                "lexical": "alright thank you for your patience ma'am uh may i have your first and last name please",
+                                "text": "Alright, thank you for your patience, ma'am. Uh, may I have your first and last name please?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT58.84S"
+                        },
+                        {
+                            "id": "10",
+                            "redactedContent": {
+                                "itn": "yes my name is **********",
+                                "lexical": "yes my name is **********",
+                                "text": "Yes, my name is **********."
+                            },
+                            "entities": [
+                                {
+                                    "text": "Mary Smith",
+                                    "category": "Name",
+                                    "offset": 16,
+                                    "length": 10,
+                                    "confidenceScore": 0.98
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M3.61S"
+                        },
+                        {
+                            "id": "11",
+                            "redactedContent": {
+                                "itn": "thank you miss ***** may i have your current address please",
+                                "lexical": "thank you miss ***** may i have your current address please",
+                                "text": "Thank you, Miss *****. May I have your current address please?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "Smith",
+                                    "category": "Name",
+                                    "offset": 16,
+                                    "length": 5,
+                                    "confidenceScore": 0.95
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT1M7.62S"
+                        },
+                        {
+                            "id": "12",
+                            "redactedContent": {
+                                "itn": "yes so my address is *******************************************************",
+                                "lexical": "yes so my address is ************************************************************************************************",
+                                "text": "Yes, so my address is *********************************************************"
+                            },
+                            "entities": [
+                                {
+                                    "text": "123 Main St in Los Angeles, CA and the ZIP code is 90923.",
+                                    "category": "Address",
+                                    "offset": 22,
+                                    "length": 57,
+                                    "confidenceScore": 0.82
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M11.54S"
+                        },
+                        {
+                            "id": "13",
+                            "redactedContent": {
+                                "itn": "******************* ****",
+                                "lexical": "************************** ****",
+                                "text": "********************. ****?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "Sorry, that was a 90",
+                                    "category": "Address",
+                                    "offset": 0,
+                                    "length": 20,
+                                    "confidenceScore": 0.82
+                                },
+                                {
+                                    "text": "What",
+                                    "category": "Address",
+                                    "offset": 22,
+                                    "length": 4,
+                                    "confidenceScore": 0.93
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT1M20.54S"
+                        },
+                        {
+                            "id": "14",
+                            "redactedContent": {
+                                "itn": "*****",
+                                "lexical": "************************",
+                                "text": "*****."
+                            },
+                            "entities": [
+                                {
+                                    "text": "90923",
+                                    "category": "Address",
+                                    "offset": 0,
+                                    "length": 5,
+                                    "confidenceScore": 0.99
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M24.19S"
+                        },
+                        {
+                            "id": "15",
+                            "redactedContent": {
+                                "itn": "******************** got it thank you uh may i have your phone number as well please",
+                                "lexical": "*************************************** got it thank you uh may i have your phone number as well please",
+                                "text": "********************. Got it. Thank you. Uh, may I have your phone number as well, please?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "90923 on Main Street",
+                                    "category": "Address",
+                                    "offset": 0,
+                                    "length": 20,
+                                    "confidenceScore": 0.99
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT1M27.63S"
+                        },
+                        {
+                            "id": "16",
+                            "redactedContent": {
+                                "itn": "yes my phone number is ***",
+                                "lexical": "yes my phone number is **************",
+                                "text": "Yes, my phone number is *04."
+                            },
+                            "entities": [
+                                {
+                                    "text": "5",
+                                    "category": "Phone",
+                                    "offset": 24,
+                                    "length": 1,
+                                    "confidenceScore": 0.98
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M34.91S"
+                        },
+                        {
+                            "id": "17",
+                            "redactedContent": {
+                                "itn": "****************",
+                                "lexical": "*****************************************",
+                                "text": "****************?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "5292351 and then",
+                                    "category": "Phone",
+                                    "offset": 0,
+                                    "length": 16,
+                                    "confidenceScore": 0.97
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M38.35S"
+                        },
+                        {
+                            "id": "18",
+                            "redactedContent": {
+                                "itn": "**",
+                                "lexical": "********",
+                                "text": "**."
+                            },
+                            "entities": [
+                                {
+                                    "text": "51",
+                                    "category": "Phone",
+                                    "offset": 0,
+                                    "length": 2,
+                                    "confidenceScore": 0.98
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT1M44.15S"
+                        },
+                        {
+                            "id": "19",
+                            "redactedContent": {
+                                "itn": "got it um and uh do you have an email address um we i can associate with this application",
+                                "lexical": "got it um and uh do you have an email address um we i can associate with this application",
+                                "text": "Got it. Um and uh, do you have an e-mail address? Um, we I can associate with this application?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT1M46.61S"
+                        },
+                        {
+                            "id": "20",
+                            "redactedContent": {
+                                "itn": "uh yes so my email address is *********************",
+                                "lexical": "uh yes so my email address is *************************************************",
+                                "text": "Uh, yes. So my e-mail address is *********************."
+                            },
+                            "entities": [
+                                {
+                                    "text": "mary.a.sm78@gmail.com",
+                                    "category": "Email",
+                                    "offset": 33,
+                                    "length": 21,
+                                    "confidenceScore": 0.99
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT1M53.54S"
+                        },
+                        {
+                            "id": "21",
+                            "redactedContent": {
+                                "itn": "********** ********************************************",
+                                "lexical": "********** *********************************************",
+                                "text": "**********. ********************************************?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "Mary dot a",
+                                    "category": "Email",
+                                    "offset": 0,
+                                    "length": 10,
+                                    "confidenceScore": 0.98
+                                },
+                                {
+                                    "text": "Was that a SN as in November or M as in Mike",
+                                    "category": "Email",
+                                    "offset": 12,
+                                    "length": 44,
+                                    "confidenceScore": 0.97
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT2M2.65S"
+                        },
+                        {
+                            "id": "22",
+                            "redactedContent": {
+                                "itn": "***************",
+                                "lexical": "***************",
+                                "text": "****************."
+                            },
+                            "entities": [
+                                {
+                                    "text": "Uh, M as in Mike",
+                                    "category": "Email",
+                                    "offset": 0,
+                                    "length": 16,
+                                    "confidenceScore": 0.98
+                                }
+                            ],
+                            "channel": 1,
+                            "offset": "PT2M9.24S"
+                        },
+                        {
+                            "id": "23",
+                            "redactedContent": {
+                                "itn": "******* uh got it right thank you miss ***** um do you currently have any other loans",
+                                "lexical": "****************** uh got it right thank you miss ***** um do you currently have any other loans",
+                                "text": "*******? Uh, got it. Right. Thank you, Miss *****. Um, do you currently have any other loans?"
+                            },
+                            "entities": [
+                                {
+                                    "text": "Like 78",
+                                    "category": "Email",
+                                    "offset": 0,
+                                    "length": 7,
+                                    "confidenceScore": 0.98
+                                },
+                                {
+                                    "text": "Smith",
+                                    "category": "Name",
+                                    "offset": 44,
+                                    "length": 5,
+                                    "confidenceScore": 0.93
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT2M11.42S"
+                        },
+                        {
+                            "id": "24",
+                            "redactedContent": {
+                                "itn": "uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about 1400 per month combined and my interest rate is 8%",
+                                "lexical": "uh yes so i currently have two other loans through contoso uh so my first one is my car loan and then my other is my student loan uh they total about fourteen hundred per month combined and my interest rate is eight percent",
+                                "text": "Uh, yes. So I currently have two other loans through CONTOSO. Uh, so my first one is my car loan and then my other is my student loan. Uh. They total about 1400 per month combined and my interest rate is 8%."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT2M19.29S"
+                        },
+                        {
+                            "id": "25",
+                            "redactedContent": {
+                                "itn": "i see and you're currently paying those loans off monthly is that right",
+                                "lexical": "i see and you're currently paying those loans off monthly is that right",
+                                "text": "I see. And you're currently paying those loans off monthly, is that right?"
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT2M32.58S"
+                        },
+                        {
+                            "id": "26",
+                            "redactedContent": {
+                                "itn": "yes of course i do",
+                                "lexical": "yes of course i do",
+                                "text": "Yes, of course I do."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT2M36.46S"
+                        },
+                        {
+                            "id": "27",
+                            "redactedContent": {
+                                "itn": "OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at ********************",
+                                "lexical": "OK thank you umm here's what i suggest we do uh let me place you on a brief hold again so i can talk with one of my loan officers and get this started for you immediately and in the meantime uh would be great if you could take a few minutes and complete the remainder of the secure application online at *****************************",
+                                "text": "OK, thank you. Umm, here's what I suggest we do. Uh, let me place you on a brief hold again so I can talk with one of my loan officers and get this started for you immediately. And in the meantime, uh would be great if you could take a few minutes and complete the remainder of the secure application online at ********************."
+                            },
+                            "entities": [
+                                {
+                                    "text": "www.contosoloans.com",
+                                    "category": "Email",
+                                    "offset": 311,
+                                    "length": 20,
+                                    "confidenceScore": 0.69
+                                }
+                            ],
+                            "channel": 0,
+                            "offset": "PT2M39.32S"
+                        },
+                        {
+                            "id": "28",
+                            "redactedContent": {
+                                "itn": "yeah that sounds good i can go ahead and get started thank you for your help",
+                                "lexical": "yeah that sounds good i can go ahead and get started thank you for your help",
+                                "text": "Yeah, that sounds good. I can go ahead and get started. Thank you for your help."
+                            },
+                            "entities": [],
+                            "channel": 1,
+                            "offset": "PT2M58.53S"
+                        },
+                        {
+                            "id": "29",
+                            "redactedContent": {
+                                "itn": "thank you",
+                                "lexical": "thank you",
+                                "text": "Thank you."
+                            },
+                            "entities": [],
+                            "channel": 0,
+                            "offset": "PT3M1.97S"
+                        }
+                    ],
+                    "warnings": []
+                }
+            ]
+        }
+    }
+}

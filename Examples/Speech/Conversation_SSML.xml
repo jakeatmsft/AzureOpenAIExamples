@@ -1,0 +1,27 @@
+<!--ID=B7267351-473F-409D-9765-754A8EBCDE05;Version=1|{"VoiceNameToIdMapItems":[{"Id":"e5e4f59b-65c6-42b2-a6e3-5985d1a1ea07","Name":"Microsoft Server Speech Text to Speech Voice (en-US, JennyNeural)","ShortName":"en-US-JennyNeural","Locale":"en-US","VoiceType":"StandardVoice"},{"Id":"e0638b39-fbd2-4497-a482-e2f65759412a","Name":"Microsoft Server Speech Text to Speech Voice (en-US, GuyNeural)","ShortName":"en-US-GuyNeural","Locale":"en-US","VoiceType":"StandardVoice"}]}-->
+<!--ID=FCB40C2B-1F9F-4C26-B1A1-CF8E67BE07D1;Version=1|{"Files":{}}-->
+<!--ID=5B95B1CC-2C7B-494F-B746-CF22A0E779B7;Version=1|{"Locales":{"en-US":{"AutoApplyCustomLexiconFiles":[{}]}}}-->
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"><voice name="en-US-JennyNeural">Hello, how may I help you today?</voice>
+<voice name="en-US-GuyNeural"><s /><mstts:express-as style="angry"><prosody pitch="-10.00%">I really need help with my credit card, it's not working at all</prosody></mstts:express-as><s /></voice>
+<voice name="en-US-JennyNeural">May I please have your first and last name?</voice>
+<voice name="en-US-GuyNeural"><s /><mstts:express-as style="angry"><prosody pitch="-10.00%">sure</prosody><break strength="medium" /><prosody pitch="-10.00%"> it's John, </prosody><prosody rate="-40.00%" pitch="-10.00%">J O H N</prosody><prosody pitch="-10.00%">, Doh, </prosody><prosody rate="-30.00%" pitch="-10.00%">D O E</prosody></mstts:express-as><s /></voice>
+<voice name="en-US-JennyNeural">Thank you Mr Doh, can you confirm the last four digits of your account number?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">Which number? Is that the card number or the number on my statement, I don't have a statement in front of me.</prosody></voice>
+<voice name="en-US-JennyNeural">It should be the last four digits printed on your credit card.</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">Ok, let me get it, my wallet is in the other room.
+I have it now, the number is 4 3 2 1</prosody></voice>
+<voice name="en-US-JennyNeural">Thank you again Mr Doh.
+It looks like there is suspected fraud on your credit card.  Can you confirm the last purchase you made?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">I tried to use it to book an Air Bee En Bee for my daughter.</prosody></voice>
+<voice name="en-US-JennyNeural">Can you confirm the charge amount?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">I don't know. it was about two thousand dollars for a stay in December in Florida.</prosody></voice>
+<voice name="en-US-JennyNeural">Ok I can confirm the amount now, our system detected it as fraud but since you have confirmed it we will mark it as approved.  Please proceed with your booking.</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">I hope I can get the same house. bookings were hard to find in that area.  I'm going to try now.</prosody><break strength="x-strong" /><prosody pitch="-10.00%">ok it looks like the booking went through thank you</prosody></voice>
+<voice name="en-US-JennyNeural">Is there anything else I can help you with?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">Yes, as a matter of fact.  I want to order another card for my daughter to use.</prosody></voice>
+<voice name="en-US-JennyNeural">Sure, I can help you with that, can I have her first and last name?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">Jane, J A N E, Doh, D O E.</prosody></voice>
+<voice name="en-US-JennyNeural">What address can I mail the card to?</voice>
+<voice name="en-US-GuyNeural"><prosody pitch="-10.00%">You can mail it to the default address on Pine Wood Ave.</prosody></voice>
+<voice name="en-US-JennyNeural">Ok you can expect the card in 1 to 2 business days.Is there anything else?</voice>
+<voice name="en-US-GuyNeural">No thank you for your help.</voice></speak>
