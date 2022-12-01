@@ -30,6 +30,8 @@ cog_svc_key:33XXXXXXXXXXXXXXXXXXXX2e
 cog_svc_ep:https://XXXXX.cognitiveservices.azure.com
 
 ```
+## Install requirements
+- Install python packages in the [requirements.txt](requirements.txt) file.
 ## Navigate to example notebooks
 - Open the sample notebooks using Jupyter to run in local or cloud environment.
 
