@@ -1,4 +1,4 @@
-# AzureOpenAIExamples
+# Azure OpenAI Examples
 
 This repository shares example code and example prompts for accomplishing common tasks with the [Azure OpenAI API].
 
