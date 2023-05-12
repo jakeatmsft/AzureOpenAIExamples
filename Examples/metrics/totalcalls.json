@@ -1,0 +1,332 @@
+{
+  "cost": 5759,
+  "interval": "12:00:00",
+  "namespace": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS",
+  "resourceregion": "eastus",
+  "timespan": "2023-05-01T18:18:25Z/2023-05-05T18:18:25Z",
+  "value": [
+    {
+      "displayDescription": "Total number of calls.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/602XXXXXXAA/RESOURCEGROUPS/RGXXXXXXXX/PROVIDERS/MICROSOFT.COGNITIVESERVICES/ACCOUNTS/XXXXXXXX/providers/Microsoft.Insights/metrics/TotalCalls",
+      "name": {
+        "localizedValue": "Total Calls",
+        "value": "TotalCalls"
+      },
+      "resourceGroup": "RGXXXXXXXX",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-01T18:18:00+00:00",
+              "total": 3.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T06:18:00+00:00",
+              "total": 7.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T18:18:00+00:00",
+              "total": 4.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T06:18:00+00:00",
+              "total": 2.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T18:18:00+00:00",
+              "total": 7.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T06:18:00+00:00",
+              "total": 1.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-05T06:18:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": [
+            {
+              "name": {
+                "localizedValue": "ratelimitkey",
+                "value": "ratelimitkey"
+              },
+              "value": "deployments.gpt-35-turbo.partition_0"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-01T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T06:18:00+00:00",
+              "total": 16.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T18:18:00+00:00",
+              "total": 1.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-05T06:18:00+00:00",
+              "total": 2.0
+            }
+          ],
+          "metadatavalues": [
+            {
+              "name": {
+                "localizedValue": "ratelimitkey",
+                "value": "ratelimitkey"
+              },
+              "value": "deployments.davinci3.partition_0"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-01T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T18:18:00+00:00",
+              "total": 1.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-05T06:18:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": [
+            {
+              "name": {
+                "localizedValue": "ratelimitkey",
+                "value": "ratelimitkey"
+              },
+              "value": "deployments.gpt-4.partition_0"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-01T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-02T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-03T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T06:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-04T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-05-05T06:18:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": [
+            {
+              "name": {
+                "localizedValue": "ratelimitkey",
+                "value": "ratelimitkey"
+              },
+              "value": "openai"
+            }
+          ]
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    }
+  ]
+}
