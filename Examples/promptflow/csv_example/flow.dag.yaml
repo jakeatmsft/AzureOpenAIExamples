@@ -1103,7 +1103,7 @@ nodes:
     logit_bias: ""
     exec_output: ${analyze_df.output}
   provider: AzureOpenAI
-  connection: oai-eu2
+  connection: aoai-connection
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
