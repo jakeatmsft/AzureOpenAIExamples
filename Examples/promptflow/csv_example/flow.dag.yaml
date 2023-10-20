@@ -118,7 +118,723 @@ inputs:
 
           Please note that these insights are based on the provided data. To derive more meaningful insights, additional contextual information or data might be needed.
         line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: compare sales index in TX across all periods
+      outputs:
+        answer: >-
+          Program:
 
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          tx_sales_index = df[df['geo'] == 'TX']['sales_index']
+
+          ans = tx_sales_index
+
+          ```
+
+
+          Result:
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          This data represents the 'sales_index' of 4 different entities labeled as 3, 14, 45, and 56. 
+
+
+          - Entity 3 has the highest sales index value of 189.07 (approx.), 
+
+          - Entity 14 has the lowest sales index value of 112.54 (approx.), 
+
+          - Entity 45 has a sales index value of 168.69 (approx.),
+
+          - Entity 56 has a sales index value of 131.87 (approx.).
+
+
+          This indicates that Entity 3 is performing the best in terms of sales, and Entity 14 is performing the least. Entities 45 and 56 are performing medium to high in comparison. 
+
+
+          Please note that without any additional information or context, these insights are relatively basic and may not provide a complete picture of the situation.
+
+          ```
+        insight: >-
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          This data represents the 'sales_index' of 4 different entities labeled as 3, 14, 45, and 56. 
+
+
+          - Entity 3 has the highest sales index value of 189.07 (approx.), 
+
+          - Entity 14 has the lowest sales index value of 112.54 (approx.), 
+
+          - Entity 45 has a sales index value of 168.69 (approx.),
+
+          - Entity 56 has a sales index value of 131.87 (approx.).
+
+
+          This indicates that Entity 3 is performing the best in terms of sales, and Entity 14 is performing the least. Entities 45 and 56 are performing medium to high in comparison. 
+
+
+          Please note that without any additional information or context, these insights are relatively basic and may not provide a complete picture of the situation.
+        line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: "compare sales index across all periods in TX "
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          tx_sales_index = df[df['geo'] == 'TX']['sales_index']
+
+          ans = tx_sales_index
+
+          ```
+
+
+          Result:
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          The data provided is a series indexed by 3, 14, 45, and 56 with corresponding values 189.07, 112.54, 168.69, and 131.87 respectively. 
+
+
+          The average (mean) of the sales index is approximately 150.54. The highest sales index is 189.07 at index 3, while the lowest sales index is 112.54 at index 14. The sales index appears to fluctuate, indicating there may be variability in sales performance.
+
+          ```
+        insight: >-
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          The data provided is a series indexed by 3, 14, 45, and 56 with corresponding values 189.07, 112.54, 168.69, and 131.87 respectively. 
+
+
+          The average (mean) of the sales index is approximately 150.54. The highest sales index is 189.07 at index 3, while the lowest sales index is 112.54 at index 14. The sales index appears to fluctuate, indicating there may be variability in sales performance.
+        line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: compare sales index in TX across all date periods
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          tx_sales_index = df[df['geo'] == 'TX'][['period', 'sales_index']].set_index('period')
+
+          ans = tx_sales_index
+
+          ```
+
+
+          Result:
+
+          ```
+
+          period | sales_index
+
+          --- | ---
+
+          20230801 | 189.068584
+
+          20230701 | 112.536241
+
+          20220801 | 168.685844
+
+          20220701 | 131.868581
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          period | sales_index
+
+          --- | ---
+
+          20230801 | 189.068584
+
+          20230701 | 112.536241
+
+          20220801 | 168.685844
+
+          20220701 | 131.868581
+
+          ```
+
+          Based on the provided tabular data, it shows sales_index values for four different periods. 
+
+
+          1. The highest sales_index is recorded in the period '20230801' with a value of 189.068584.
+
+          2. The lowest sales_index is recorded in the period '20230701' with a value of 112.536241.
+
+          3. The sales_index seems to fluctuate between these periods, with an increase from '20220701' to '20220801' and a decrease from '20220801' to '20230701', then again an increase to '20230801'.
+
+
+          Please note that a more comprehensive analysis or predictions would require additional data and information.
+
+          ```
+        insight: >-
+          ```
+
+          period | sales_index
+
+          --- | ---
+
+          20230801 | 189.068584
+
+          20230701 | 112.536241
+
+          20220801 | 168.685844
+
+          20220701 | 131.868581
+
+          ```
+
+          Based on the provided tabular data, it shows sales_index values for four different periods. 
+
+
+          1. The highest sales_index is recorded in the period '20230801' with a value of 189.068584.
+
+          2. The lowest sales_index is recorded in the period '20230701' with a value of 112.536241.
+
+          3. The sales_index seems to fluctuate between these periods, with an increase from '20220701' to '20220801' and a decrease from '20220801' to '20230701', then again an increase to '20230801'.
+
+
+          Please note that a more comprehensive analysis or predictions would require additional data and information.
+        line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: compare sales index across all geos for all date periods, identify any
+          increasing trends
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          sales_index_trends = df.groupby(['geo', 'period'])['sales_index'].sum().unstack()
+
+          increasing_trends = sales_index_trends.apply(lambda x: x.is_monotonic_increasing, axis=1)
+
+          ans = increasing_trends
+
+          ```
+
+
+          Result:
+
+          ```
+
+          geo
+
+          AK | False
+
+          AL | False
+
+          CA | False
+
+          FL | False
+
+          GA | False
+
+          MN | False
+
+          NJ | False
+
+          NV | False
+
+          NY | False
+
+          TX | False
+
+          US | False
+
+
+          dtype: bool
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          geo
+
+          AK | False
+
+          AL | False
+
+          CA | False
+
+          FL | False
+
+          GA | False
+
+          MN | False
+
+          NJ | False
+
+          NV | False
+
+          NY | False
+
+          TX | False
+
+          US | False
+
+
+          dtype: bool
+
+          ```
+
+          The provided data is a boolean series indicating whether certain geographical regions (presumably U.S. states and the entirety of the U.S.) meet a certain condition or not. According to the data, none of the regions (AK, AL, CA, FL, GA, MN, NJ, NV, NY, TX, US) meet the specified condition as they are all marked as False.
+
+          ```
+        insight: >-
+          ```
+
+          geo
+
+          AK | False
+
+          AL | False
+
+          CA | False
+
+          FL | False
+
+          GA | False
+
+          MN | False
+
+          NJ | False
+
+          NV | False
+
+          NY | False
+
+          TX | False
+
+          US | False
+
+
+          dtype: bool
+
+          ```
+
+          The provided data is a boolean series indicating whether certain geographical regions (presumably U.S. states and the entirety of the U.S.) meet a certain condition or not. According to the data, none of the regions (AK, AL, CA, FL, GA, MN, NJ, NV, NY, TX, US) meet the specified condition as they are all marked as False.
+        line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: identify top states where sales index is increasing
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          top_states = df[df['sales_index_adj'] > df['sales_index_adj'].shift(1)]['geo'].value_counts().index.tolist()
+
+          ans = top_states[:5]
+
+          ```
+
+
+          Result:
+
+          ```
+
+          - GA
+
+          - US
+
+          - NY
+
+          - MN
+
+          - AL
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          - GA
+
+          - US
+
+          - NY
+
+          - MN
+
+          - AL
+
+          ```
+
+          There is not enough information.
+
+          ```
+        insight: |-
+          ```
+          - GA
+          - US
+          - NY
+          - MN
+          - AL
+          ```
+          There is not enough information.
+        line_number: 0
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: identify top states where sales index is increasing, include period
+          and sales index delta
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          top_states = df[df['sales_index_adj'] > 0].sort_values(by='sales_index_adj', ascending=False)[['geo', 'period', 'sales_index_adj']]
+
+          ans = top_states.head(10)
+
+          ```
+
+
+          Result:
+
+          ```
+
+          | geo | period | sales_index_adj |
+
+          |-----|--------|-----------------|
+
+          | GA  | 20230701 | 199.813593 |
+
+          | CA  | 20230701 | 199.413322 |
+
+          | MN  | 20220801 | 198.794301 |
+
+          | US  | 20230801 | 198.751315 |
+
+          | GA  | 20230801 | 198.693969 |
+
+          | GA  | 20220701 | 198.385024 |
+
+          | TX  | 20230701 | 197.527653 |
+
+          | GA  | 20220701 | 196.826578 |
+
+          | TX  | 20220701 | 194.556859 |
+
+          | US  | 20220701 | 193.462582 |
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          | geo | period | sales_index_adj |
+
+          |-----|--------|-----------------|
+
+          | GA  | 20230701 | 199.813593 |
+
+          | CA  | 20230701 | 199.413322 |
+
+          | MN  | 20220801 | 198.794301 |
+
+          | US  | 20230801 | 198.751315 |
+
+          | GA  | 20230801 | 198.693969 |
+
+          | GA  | 20220701 | 198.385024 |
+
+          | TX  | 20230701 | 197.527653 |
+
+          | GA  | 20220701 | 196.826578 |
+
+          | TX  | 20220701 | 194.556859 |
+
+          | US  | 20220701 | 193.462582 |
+
+          ```
+
+          The data provided contains information about the sales index adjusted for different geographical locations (geo) at different periods. Here are some insights from the data:
+
+
+          1. The highest sales index adjusted value is reported for GA in the period 20230701, with a value of 199.813593.
+
+
+          2. CA follows closely with a sales index adjusted value of 199.413322 in the same period.
+
+
+          3. The lowest sales index adjusted value in the list is reported for the US in the period 20220701, with a value of 193.462582.
+
+
+          4. GA appears multiple times in the list, suggesting high sales performance in this geo across different periods.
+
+
+          5. The period 20220701 appears multiple times with different geo, indicating that this period might be significant in terms of sales activity. 
+
+
+          Please provide more data for more detailed insights.
+
+          ```
+        insight: >-
+          ```
+
+          | geo | period | sales_index_adj |
+
+          |-----|--------|-----------------|
+
+          | GA  | 20230701 | 199.813593 |
+
+          | CA  | 20230701 | 199.413322 |
+
+          | MN  | 20220801 | 198.794301 |
+
+          | US  | 20230801 | 198.751315 |
+
+          | GA  | 20230801 | 198.693969 |
+
+          | GA  | 20220701 | 198.385024 |
+
+          | TX  | 20230701 | 197.527653 |
+
+          | GA  | 20220701 | 196.826578 |
+
+          | TX  | 20220701 | 194.556859 |
+
+          | US  | 20220701 | 193.462582 |
+
+          ```
+
+          The data provided contains information about the sales index adjusted for different geographical locations (geo) at different periods. Here are some insights from the data:
+
+
+          1. The highest sales index adjusted value is reported for GA in the period 20230701, with a value of 199.813593.
+
+
+          2. CA follows closely with a sales index adjusted value of 199.413322 in the same period.
+
+
+          3. The lowest sales index adjusted value in the list is reported for the US in the period 20220701, with a value of 193.462582.
+
+
+          4. GA appears multiple times in the list, suggesting high sales performance in this geo across different periods.
+
+
+          5. The period 20220701 appears multiple times with different geo, indicating that this period might be significant in terms of sales activity. 
+
+
+          Please provide more data for more detailed insights.
+        line_number: 0
+    - inputs:
         columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
           naics_code_2 : industry code, period : date format YYYYMMDD,
           count_index : count_index, sales_index : sales_index, count_mom_diff :
