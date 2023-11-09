@@ -1,3 +1,5 @@
+#### Note: Make sure you are running on Databricks ML compute, to avoid dependency issues with MLflow.
+
 Step 1:  Upload the "chat_csv_model" folder to your databricks workspace, along with the deploy_pf notebooks.
 
 <img width="171" alt="image" src="https://github.com/jakeatmsft/AzureOpenAIExamples/assets/47987698/5b575c11-a8ac-4e8e-ac00-6447483f4f66">
