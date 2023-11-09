@@ -1,0 +1,411 @@
+id: template_chat_flow
+name: Template Chat Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  chat_history:
+    type: list
+    default:
+    - inputs:
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: compare sales index in TX across all periods?
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming your dataframe is named 'df'
+
+          tx_sales_index = df[df['geo'] == 'TX']['sales_index']
+
+          ans = tx_sales_index
+
+          ```
+
+
+          Result:
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          From the provided data, it appears to be a series with indices and corresponding values, possibly indicating sales index. Here are some insights that can be derived:
+
+
+          1. The series contains 4 indices: 3, 14, 45, 56.
+
+          2. The lowest sales index is 112.536241 (at index 14).
+
+          3. The highest sales index is 189.068584 (at index 3).
+
+          4. The sales index at index 45 is 168.685844 which is higher than the sales index at index 56 which is 131.868581.
+
+
+          Please note that these insights are based on the provided data. To derive more meaningful insights, additional contextual information or data might be needed.
+
+          ```
+        insight: >-
+          ```
+
+          3 | 189.068584
+
+          14 | 112.536241
+
+          45 | 168.685844
+
+          56 | 131.868581
+
+
+          Name: sales_index, dtype: float64
+
+          ```
+
+          From the provided data, it appears to be a series with indices and corresponding values, possibly indicating sales index. Here are some insights that can be derived:
+
+
+          1. The series contains 4 indices: 3, 14, 45, 56.
+
+          2. The lowest sales index is 112.536241 (at index 14).
+
+          3. The highest sales index is 189.068584 (at index 3).
+
+          4. The sales index at index 45 is 168.685844 which is higher than the sales index at index 56 which is 131.868581.
+
+
+          Please note that these insights are based on the provided data. To derive more meaningful insights, additional contextual information or data might be needed.
+        line_number: 0
+
+        columnlist: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+          naics_code_2 : industry code, period : date format YYYYMMDD,
+          count_index : count_index, sales_index : sales_index, count_mom_diff :
+          count_mom_diff, count_mom_rank : count_mom_rank, count_yoy_diff :
+          count_yoy_diff, count_yoy_rank : count_yoy_rank,  sales_mom_diff :
+          sales_mom_diff, sales_mom_rank : sales_mom_rank, sales_yoy_diff :
+          sales_yoy_diff, sales_yoy_rank : sales_yoy_rank, count_index_adj :
+          count_index_adj, sales_index_adj :
+          sales_index_adj,  count_adj_mom_diff : count_adj_mom_diff,
+          count_adj_mom_rank : count_adj_mom_rank, count_adj_yoy_diff :
+          count_adj_yoy_diff, count_adj_yoy_rank : count_adj_yoy_rank,
+          sales_adj_mom_diff : sales_adj_mom_diff, sales_adj_mom_rank :
+          sales_adj_mom_rank, sales_adj_yoy_diff : sales_adj_yoy_diff,
+          sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by : YYYYMM ]"
+        filename: Mock_Count_index_Data_20230928G.csv
+        question: identify states where sales index is decreasing, include period and
+          sales index trend
+      outputs:
+        answer: >-
+          Program:
+
+          ```
+
+          # Assuming 'geo' column contains state information
+
+          decreasing_sales_index = df[df['sales_index'].diff() < 0][['geo', 'period', 'sales_index']]
+
+          ans = decreasing_sales_index
+
+          ```
+
+
+          Result:
+
+          ```
+
+          | geo | period | sales_index |
+
+          |-----|--------|-------------|
+
+          | GA  | 20230801 | 160.748113 |
+
+          | AL  | 20230801 | 171.430163 |
+
+          | AK  | 20230801 | 110.378943 |
+
+          | NJ  | 20230801 | 143.090332 |
+
+          | US  | 20230701 | 147.365996 |
+
+          | ... | ... | ... |
+
+          | US  | 20220701 | 131.917899 |
+
+          | US  | 20220701 | 121.982295 |
+
+          | US  | 20220701 | 114.076037 |
+
+          | US  | 20220701 | 167.371274 |
+
+          | US  | 20220701 | 143.362140 |
+
+
+          [62 rows x 3 columns]
+
+          ```
+
+
+          Insights:
+
+          ```
+
+          ```
+
+          | geo | period | sales_index |
+
+          |-----|--------|-------------|
+
+          | GA  | 20230801 | 160.748113 |
+
+          | AL  | 20230801 | 171.430163 |
+
+          | AK  | 20230801 | 110.378943 |
+
+          | NJ  | 20230801 | 143.090332 |
+
+          | US  | 20230701 | 147.365996 |
+
+          | ... | ... | ... |
+
+          | US  | 20220701 | 131.917899 |
+
+          | US  | 20220701 | 121.982295 |
+
+          | US  | 20220701 | 114.076037 |
+
+          | US  | 20220701 | 167.371274 |
+
+          | US  | 20220701 | 143.362140 |
+
+
+          [62 rows x 3 columns]
+
+          ```
+
+          The data provided consists of three columns: 'geo', 'period', and 'sales_index'. Here are some insights that can be drawn from this limited data:
+
+
+          1. 'Geo' represents the geographical area, likely the state codes for different areas in the United States. It includes 'US' which likely represents the whole country.
+
+
+          2. 'Period' appears to represent a date in the format YYYYMMDD. It starts from 20220701 and goes up to 20230801.
+
+
+          3. 'Sales_index' is likely a numerical representation of sales activity. The values range from approximately 110 to 171.
+
+
+          4. There are 62 rows of data, but only a few distinct data points are shown.
+
+
+          Please note that without knowing more about the nature of the data (e.g., what the sales index represents, what the period represents), the insights that can be generated are quite limited.
+
+          ```
+        insight: >-
+          ```
+
+          | geo | period | sales_index |
+
+          |-----|--------|-------------|
+
+          | GA  | 20230801 | 160.748113 |
+
+          | AL  | 20230801 | 171.430163 |
+
+          | AK  | 20230801 | 110.378943 |
+
+          | NJ  | 20230801 | 143.090332 |
+
+          | US  | 20230701 | 147.365996 |
+
+          | ... | ... | ... |
+
+          | US  | 20220701 | 131.917899 |
+
+          | US  | 20220701 | 121.982295 |
+
+          | US  | 20220701 | 114.076037 |
+
+          | US  | 20220701 | 167.371274 |
+
+          | US  | 20220701 | 143.362140 |
+
+
+          [62 rows x 3 columns]
+
+          ```
+
+          The data provided consists of three columns: 'geo', 'period', and 'sales_index'. Here are some insights that can be drawn from this limited data:
+
+
+          1. 'Geo' represents the geographical area, likely the state codes for different areas in the United States. It includes 'US' which likely represents the whole country.
+
+
+          2. 'Period' appears to represent a date in the format YYYYMMDD. It starts from 20220701 and goes up to 20230801.
+
+
+          3. 'Sales_index' is likely a numerical representation of sales activity. The values range from approximately 110 to 171.
+
+
+          4. There are 62 rows of data, but only a few distinct data points are shown.
+
+
+          Please note that without knowing more about the nature of the data (e.g., what the sales index represents, what the period represents), the insights that can be generated are quite limited.
+        line_number: 0
+    is_chat_input: false
+    is_chat_history: true
+  question:
+    type: string
+    default: list the geos
+    is_chat_input: true
+  filename:
+    type: string
+    default: Mock_Count_index_Data_20230928G.csv
+    is_chat_input: false
+  columnlist:
+    type: string
+    default: "[ uid : identifier, geo : geography, naics_code_3 : industry code,
+      naics_code_2 : industry code, period : date format YYYYMMDD, count_index :
+      count_index, sales_index : sales_index, count_mom_diff : count_mom_diff,
+      count_mom_rank : count_mom_rank, count_yoy_diff : count_yoy_diff,
+      count_yoy_rank : count_yoy_rank,  sales_mom_diff : sales_mom_diff,
+      sales_mom_rank : sales_mom_rank, sales_yoy_diff : sales_yoy_diff,
+      sales_yoy_rank : sales_yoy_rank, count_index_adj : count_index_adj,
+      sales_index_adj : sales_index_adj,  count_adj_mom_diff :
+      count_adj_mom_diff, count_adj_mom_rank : count_adj_mom_rank,
+      count_adj_yoy_diff : count_adj_yoy_diff, count_adj_yoy_rank :
+      count_adj_yoy_rank, sales_adj_mom_diff : sales_adj_mom_diff,
+      sales_adj_mom_rank : sales_adj_mom_rank, sales_adj_yoy_diff :
+      sales_adj_yoy_diff, sales_adj_yoy_rank : sales_adj_yoy_rank, partition_by
+      : YYYYMM ]"
+    is_chat_input: false
+outputs:
+  answer:
+    type: string
+    reference: ${concat_result.output}
+    is_chat_output: true
+  insight:
+    type: string
+    reference: ${insight_result.output}
+    is_chat_output: false
+nodes:
+- name: llm_python
+  type: llm
+  source:
+    type: code
+    path: chat.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: 0
+    top_p: 1
+    max_tokens: 256
+    presence_penalty: 0
+    frequency_penalty: 0
+    df_columns: ${inputs.columnlist}
+    question: ${inputs.question}
+  connection: aoai-connection
+  api: chat
+  use_variants: false
+- name: analyze_df
+  type: python
+  source:
+    type: code
+    path: analyze_df.py
+  inputs:
+    csvfile: ${inputs.filename}
+    input_program: ${llm_python.output}
+  use_variants: false
+- name: concat_result
+  type: prompt
+  source:
+    type: code
+    path: concat_result.jinja2
+  inputs:
+    format_out: ${output_format.output}
+    gen_program: ${llm_python.output}
+    insights_out: ${insight_result.output}
+  use_variants: false
+- name: output_format
+  type: llm
+  source:
+    type: code
+    path: output_format.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: 0
+    top_p: 1
+    max_tokens: 500
+    presence_penalty: 0
+    frequency_penalty: 0
+    exec_output: ${analyze_df.output}
+  connection: aoai-connection
+  api: chat
+  use_variants: false
+- name: insight_result
+  type: prompt
+  source:
+    type: code
+    path: output_result.jinja2
+  inputs:
+    format_out: ${output_format.output}
+    insights: ${generate_insights.output}
+  use_variants: false
+- name: generate_insights
+  type: llm
+  source:
+    type: code
+    path: generate_insights.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: 0.75
+    top_p: 1
+    max_tokens: 200
+    presence_penalty: 0
+    frequency_penalty: 0
+    question: ${analyze_df.output}
+  connection: aoai-connection
+  api: chat
+  use_variants: false
