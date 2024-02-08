@@ -1,0 +1,458 @@
+id: template_chat_flow
+name: Template Chat Flow
+inputs:
+  chat_history:
+    type: list
+    default:
+    - inputs:
+        query: how old do I need to be to drive?
+      outputs:
+        current_query_intent: "Current Message Intent: how old do I need to be to drive?"
+        fetched_docs:
+        - id: Mi02LTIzLUxJTktTLUFEREVELTItUGFzc2VkLUFjY2Vzc2liaWxpdHktREwtNjAwLVIxLTIwMjMucGRmOQ==
+          chunk_id: null
+          content: >-
+            Title:
+            2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf4If you
+            are under 18 years old, you will also need to:
+
+            • Be at least 15½ years old.
+
+            • Complete a driver education program.
+
+            • Have a parent or guardian sign to approve the application and accept 
+
+            financial responsibility (see Section 10). If your parents or guardians share joint custody of you, both must sign.
+
+            • Wait to use your instruction permit until you start behind-the-wheel driver training with an instructor who will validate the permit.
+
+            Driving Schools
+
+            Driver education and driver training are offered at DMV-licensed driving schools and some high schools. Instructors must carry an instructor’s ID card. Ask to see it. 
+
+            See the Driver Training Schools page at dmv.ca.gov/driver-ed  
+
+            for more 
+
+            information about selecting a driving school.
+
+            Applying For A Driver’s License
+
+            To get your driver’s license after you have your instruction permit, 
+
+            you need to:
+
+            • Practice driving with a California-licensed driver who is at least 18 years old (25 for minors). This person must sit close enough to take control of the vehicle if needed.
+
+            • Pass a behind-the-wheel drive test.
+
+            If you are under 18 years old, you will also need to:
+
+            • Be at least 16 years old.
+
+            • Have an instruction permit from California or another state for at least 6 months (or turn 18 years old) before scheduling your behind-the-wheel drive test.
+
+            • Prove that you completed both  driver education and driver training.
+
+            • Practice driving for at least 50 hours with a California-licensed driver who is at least 25 years old. Ten hours must be at night. 
+
+            See the Driver’s Licenses page at dmv.ca.gov/dlservices  
+
+            for the 
+
+            complete list of application steps, requirements, the Parent Teen Driving Contract, and Driving Performance Evaluation (DPE) Score Sheet. 
+          filepath: 2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+          search_score: 0.03279569745063782
+          title: null
+          url: azureml://locations/southcentralus/workspaces/a2f597f4-1a31-4e25-9c39-aa7e2d3b6df0/data/vector-index-input-1699309222872/versions/1/2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+        - id: Mi02LTIzLUxJTktTLUFEREVELTItUGFzc2VkLUFjY2Vzc2liaWxpdHktREwtNjAwLVIxLTIwMjMucGRmMTA=
+          chunk_id: null
+          content: >-
+            Title:
+            2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf5Minor’s
+            Restrictions and Exceptions
+
+            When you are under 18 years old, your driver’s license will have the word 
+
+            provisional. As a provisional driver, you cannot  drive:
+
+            • Between 11 p.m. and 5 a.m. during the first 12 months you have your 
+
+            license. 
+
+            • With passengers under 20 years old, unless your parent or guardian 
+
+            or other California-licensed driver (at least 25 years old) rides with 
+
+            you. 
+
+            • For pay or operate vehicles that require a commercial Class A, B, or C 
+
+            license.
+
+            There are exceptions to these restrictions if you:
+
+            • Have a medical need and cannot reasonably find another way to 
+
+            travel. You must carry a note signed by your physician. The note must 
+
+            have your medical condition and date you are expected to recover.
+
+            • Drive for schooling or a school activity. You must carry a note signed 
+
+            by your school principal, dean, or designee.
+
+            • Must drive for work reasons. You must carry a note signed by your 
+
+            employer. The note must confirm your employment.
+
+            • Must drive an immediate family member. You must carry a note 
+
+            signed by your parent or legal guardian. The note must state the 
+
+            reason you need to drive, the family member, and date when the 
+
+            need will end.
+
+            NOTE:  A parent or guardian may cancel their teen’s license by 
+
+            completing a Request for Cancellation or Surrender of a Driver License 
+
+            or ID Card form.
+
+            .
+          filepath: 2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+          search_score: 0.03226646035909653
+          title: null
+          url: azureml://locations/southcentralus/workspaces/a2f597f4-1a31-4e25-9c39-aa7e2d3b6df0/data/vector-index-input-1699309222872/versions/1/2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+        - id: Mi02LTIzLUxJTktTLUFEREVELTItUGFzc2VkLUFjY2Vzc2liaWxpdHktREwtNjAwLVIxLTIwMjMucGRmMTI=
+          chunk_id: null
+          content: >-
+            Title:
+            2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf7On the
+            day of your behind-the-wheel test, you must bring:
+
+            1.Your instruction permit or driver’s license (if you have one).
+
+            2.Another California-licensed driver who is at least 18 years old (25 for
+
+            minors), unless you are already licensed to drive.
+
+            3.A vehicle that is safe to drive for your test.
+
+            4.Valid proof of insurance and vehicle registration.
+
+            5.If you plan to use a rental vehicle for your drive test, your name mustbe listed on the rental contract. The contract must not excludebehind-the-wheel drive tests.
+
+            NOTE:  Minors must wait 14 days to retake a failed behind-the-wheel 
+
+            drive test, not including the day of the failure. 
+
+            Before you begin, the DMV examiner will ask you to locate and 
+
+            demonstrate the following: 
+
+            •Driver window  – The window on the driver side must open.
+
+            •Windshield  – The windshield must allow a full, clear, unblocked view
+
+            for you and the DMV examiner. Windshield cracks may postpone yourtest.
+
+            •Rear-view mirrors – At least two rearview mirrors. One of them mustbe on the left side of your vehicle.
+
+            •Brake lights – The right and left brake lights must be operational.
+
+            •Tires  – The tires must have at least 1/32-inch of uniformed tread
+
+            depth. The use of a donut tire is not allowed during a drive test.
+
+            •Foot brake – There must be at least one inch of clearance betweenthe bottom of the brake pedal and the floorboard when depressed.
+
+            •Horn  – Designed for the vehicle, in proper working condition, and
+
+            loud enough to be heard from a distance of at least 200 feet.
+
+            •Emergency (parking brake)  – How to set and release the parking
+
+            brake.
+
+            •Turn/Arm signals
+
+            a.Left turn.
+
+            b.Right turn.
+
+            c.Slowing down or stopping.
+
+            •Windshield wipers: control arm or switch  – You may be required to
+
+            show they function.
+
+            •Seat belts – All seat belts must work properly and be used by theindividual(s) in the vehicle.
+
+            NOTE:  If your vehicle does not meet the requirements, your drive test 
+
+            will be rescheduled.
+          filepath: 2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+          search_score: 0.03021353855729103
+          title: null
+          url: azureml://locations/southcentralus/workspaces/a2f597f4-1a31-4e25-9c39-aa7e2d3b6df0/data/vector-index-input-1699309222872/versions/1/2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+        - id: Mi02LTIzLUxJTktTLUFEREVELTItUGFzc2VkLUFjY2Vzc2liaWxpdHktREwtNjAwLVIxLTIwMjMucGRmNjI=
+          chunk_id: null
+          content: >-
+            Title:
+            2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf57Maintaining
+            Your Minor’s (Provisional) Driver’s License
+
+            If you get into collisions or commit traffic violations within the first 12 
+
+            months of obtaining your minor’s driver’s license, DMV may restrict or 
+
+            suspend your driving privilege. You cannot drive if your driving privilege 
+
+            is suspended or revoked. 
+
+            As a minor, DMV may take action against your license if you have:
+
+            • One at fault collision or traffic violation conviction: An at fault collision 
+
+            means you were found responsible.
+
+            • Two at fault collisions, two traffic violation convictions, or one of each: 
+
+            You cannot drive for 30 days unless a licensed adult, at least 25 years 
+
+            old, rides with you.
+
+            • Three at fault collisions, three traffic violation convictions, or a 
+
+            combination: Your driving privilege will be suspended for six months. 
+
+            You will be on probation for one year.
+             —If you have more at fault collisions or traffic violation convictions 
+            while on probation, your license will be suspended again.
+
+            • A conviction of using alcohol or a controlled substance, or both and 
+
+            are 15-20 years old: The court will order DMV to suspend your driving 
+
+            privilege for one year or delay your eligibility to apply for a driver’s 
+
+            license.
+
+            NOTE : Turning 18 years old does not erase or end existing restrictions, 
+
+            suspensions, or probation sentences.
+
+            Administrative Hearing
+
+            Administrative hearings are conducted by DMV. If you received 
+
+            notification that a proposed action is being taken against your driving 
+
+            privilege, you must request a hearing within 10 days of being served or 
+
+            14 days from the date the notice is mailed. If you do not make a timely 
+
+            request, your right to a hearing will be lost. 
+
+            This hearing provides you with an opportunity to be heard before an 
+
+            action is taken against your driving privilege. You may also have to 
+
+            appear in court for the same reason. Any action taken by the court is 
+
+            independent of the action taken by DMV. 
+          filepath: 2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+          search_score: 0.029906954616308212
+          title: null
+          url: azureml://locations/southcentralus/workspaces/a2f597f4-1a31-4e25-9c39-aa7e2d3b6df0/data/vector-index-input-1699309222872/versions/1/2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+        - id: Mi02LTIzLUxJTktTLUFEREVELTItUGFzc2VkLUFjY2Vzc2liaWxpdHktREwtNjAwLVIxLTIwMjMucGRmMTY=
+          chunk_id: null
+          content: >-
+            Title:
+            2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf11SECTION  5.   An
+            Introduction to Driving
+
+            Your health may affect your driving. 
+
+            Vision  – You must be able to notice hazards in different types of lighting, 
+
+            judge distances, adjust to traffic speed, and read road signs. Hearing  – You must be able to hear horns, sirens, motorcycles, or 
+
+            screeching tires that may alert you of hazards. It is illegal to wear a 
+
+            headset or earplugs in both ears while driving.  
+
+            Fatigue and Drowsiness – Can affect your vision and increase reaction 
+
+            time to hazards. 
+
+            Physical and Mental – You must be alert to quickly decide the correct 
+
+            course of action in any type of traffic situation, including unexpected ones. 
+
+            Medications – Prescription and over-the-counter medications can make 
+
+            you an unsafe driver. Some medicines can make you sleepy. It is your responsibility to know the effects of the medications you take.
+
+            Health – Physicians are required to report patients, who are at least 14 
+
+            years old, to DMV if they believe you have medical conditions that may affect your ability to drive safely, such as lapse of consciousness. 
+
+            Controlling the Vehicle
+
+            To control your vehicle, it is critical to keep both hands on the wheel whenever possible.
+
+            Hand-to-Hand Steering
+
+            To use this steering wheel method:
+
+            1. Start with your hands at 9 and 3 o’clock or 8 and 4 o’clock. 
+
+            2. Do not cross your hands over the middle of the steering wheel.
+
+            3. Keep your hands in these positions, even when making turns.
+          filepath: 2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+          search_score: 0.026151316240429878
+          title: null
+          url: azureml://locations/southcentralus/workspaces/a2f597f4-1a31-4e25-9c39-aa7e2d3b6df0/data/vector-index-input-1699309222872/versions/1/2-6-23-LINKS-ADDED-2-Passed-Accessibility-DL-600-R1-2023.pdf
+        reply: To drive in California, you need to be at least 16 years old to get a
+          provisional driver's license, provided you have held an instruction
+          permit from California or another state for at least 6 months (or
+          until you turn 18 years old)[doc0]. If you are under 18 years old, you
+          will also need to complete a driver education program and have a
+          parent or guardian sign to approve the application and accept
+          financial responsibility[doc0].
+        search_intents: '["how old do I need to be to drive?"]'
+    is_chat_input: false
+    is_chat_history: true
+  query:
+    type: string
+    default: how old do I need to be to drive?
+    is_chat_input: true
+outputs:
+  reply:
+    type: string
+    reference: ${FormatReply.output}
+    is_chat_output: false
+  search_intents:
+    type: string
+    reference: ${ExtractIntent.output.search_intents}
+    is_chat_output: false
+  fetched_docs:
+    type: string
+    reference: ${RetrieveDocuments.output}
+    is_chat_output: false
+  current_query_intent:
+    type: string
+    reference: ${ExtractIntent.output.current_message_intent}
+    is_chat_output: false
+  concat_out:
+    type: string
+    reference: ${output_prompt.output}
+    is_chat_output: true
+nodes:
+- name: DetermineIntent
+  type: llm
+  source:
+    type: code
+    path: DetermineIntent.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: 0
+    top_p: 1
+    max_tokens: 800
+    presence_penalty: 0
+    frequency_penalty: 0
+    chat_history: ${inputs.chat_history}
+    query: ${inputs.query}
+  provider: AzureOpenAI
+  connection: Default_AzureOpenAI
+  api: chat
+  module: promptflow.tools.aoai
+  use_variants: false
+- name: ExtractIntent
+  type: python
+  source:
+    type: code
+    path: ExtractIntent.py
+  inputs:
+    input: ${DetermineIntent.output}
+    query: ${inputs.query}
+  use_variants: false
+- name: RetrieveDocuments
+  type: python
+  source:
+    type: code
+    path: RetrieveDocuments.py
+  inputs:
+    searchConnection: AzureAISearch
+    embeddingModelConnection: Default_AzureOpenAI
+    vectorFields: contentVector
+    embeddingModelName: text-embedding-ada-002
+    indexName: dmv-index-full
+    queries: ${ExtractIntent.output.search_intents}
+    queryType: vectorSimpleHybrid
+    semanticConfiguration: None
+    topK: 5
+  use_variants: false
+- name: FormatRetrievedDocuments
+  type: python
+  source:
+    type: code
+    path: FormatRetrievedDocuments.py
+  inputs:
+    docs: ${RetrieveDocuments.output}
+    maxTokens: 3500
+  use_variants: false
+- name: FormatConversation
+  type: python
+  source:
+    type: code
+    path: FormatConversation.py
+  inputs:
+    history: ${inputs.chat_history}
+    maxTokens: 800
+    query: ${inputs.query}
+  use_variants: false
+- name: DetermineReply
+  type: llm
+  source:
+    type: code
+    path: DetermineReply.jinja2
+  inputs:
+    deployment_name: gpt-4
+    temperature: 0
+    top_p: 1
+    max_tokens: 800
+    presence_penalty: 0
+    frequency_penalty: 0
+    conversation: ${FormatConversation.output}
+    documentation: ${FormatRetrievedDocuments.output}
+    user_query: ${ExtractIntent.output.current_message_intent}
+  provider: AzureOpenAI
+  connection: Default_AzureOpenAI
+  api: chat
+  module: promptflow.tools.aoai
+  use_variants: false
+- name: FormatReply
+  type: python
+  source:
+    type: code
+    path: FormatReply.py
+  inputs:
+    reply: ${DetermineReply.output}
+  use_variants: false
+- name: output_prompt
+  type: prompt
+  source:
+    type: code
+    path: output_prompt.jinja2
+  inputs:
+    reply: ${FormatReply.output}
+    retrieveddocs: ${RetrieveDocuments.output}
+  use_variants: false
+node_variants: {}
+environment:
+  python_requirements_txt: requirements.txt

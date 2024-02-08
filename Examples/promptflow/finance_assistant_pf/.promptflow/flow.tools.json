@@ -1,0 +1,27 @@
+{
+  "package": {},
+  "code": {
+    "ag_test.py": {
+      "type": "python",
+      "inputs": {
+        "connection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        },
+        "input1": {
+          "type": [
+            "string"
+          ]
+        },
+        "assistant_id": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "ag_test.py",
+      "function": "my_python_tool"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00_0",
+      "status": "Failed",
+      "error": {
+        "message": "Execution failure in 'ag_test': (NotFoundError) Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+        "messageFormat": "Execution failure in '{node_name}'.",
+        "messageParameters": {
+          "node_name": "ag_test"
+        },
+        "referenceCode": "Tool/__pf_main__",
+        "code": "UserError",
+        "innerError": {
+          "code": "ToolExecutionError",
+          "innerError": null
+        },
+        "additionalInfo": [
+          {
+            "type": "ToolExecutionErrorDetails",
+            "info": {
+              "type": "NotFoundError",
+              "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+              "traceback": "Traceback (most recent call last):\n  File \"C:\\repo\\AzureOpenAIExamples\\Examples\\promptflow\\finance_assistant_pf\\ag_test.py\", line 90, in my_python_tool\n    assistant = client.beta.assistants.retrieve(assistant_id)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\resources\\beta\\assistants\\assistants.py\", line 140, in retrieve\n    return self._get(\n           ^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 1034, in get\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 852, in request\n    return self._request(\n           ^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 933, in _request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.NotFoundError: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}\n",
+              "filename": "C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py",
+              "lineno": 933,
+              "name": "_request"
+            }
+          }
+        ],
+        "debugInfo": {
+          "type": "ToolExecutionError",
+          "message": "Execution failure in 'ag_test': (NotFoundError) Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+          "stackTrace": "\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\flow_executor.py\", line 820, in _exec\n    output, nodes_outputs = self._traverse_nodes(inputs, context)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\flow_executor.py\", line 918, in _traverse_nodes\n    nodes_outputs, bypassed_nodes = self._submit_to_scheduler(context, inputs, batch_nodes)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\flow_executor.py\", line 938, in _submit_to_scheduler\n    return FlowNodesScheduler(self._tools_manager, inputs, nodes, self._node_concurrency, context).execute()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\_flow_nodes_scheduler.py\", line 69, in execute\n    raise e\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\_flow_nodes_scheduler.py\", line 58, in execute\n    self._dag_manager.complete_nodes(self._collect_outputs(completed_futures))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\_flow_nodes_scheduler.py\", line 90, in _collect_outputs\n    each_node_result = each_future.result()\n                       ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\executor\\_flow_nodes_scheduler.py\", line 111, in _exec_single_node_in_thread\n    result = context.invoke_tool(node, f, kwargs=kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 90, in invoke_tool\n    result = self._invoke_tool_with_timer(node, f, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 205, in _invoke_tool_with_timer\n    raise ToolExecutionError(node_name=node_name, module=module) from e\n",
+          "innerException": {
+            "type": "NotFoundError",
+            "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+            "stackTrace": "Traceback (most recent call last):\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 194, in _invoke_tool_with_timer\n    return f(**kwargs)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\tracer.py\", line 220, in wrapped\n    output = func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\repo\\AzureOpenAIExamples\\Examples\\promptflow\\finance_assistant_pf\\ag_test.py\", line 90, in my_python_tool\n    assistant = client.beta.assistants.retrieve(assistant_id)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\resources\\beta\\assistants\\assistants.py\", line 140, in retrieve\n    return self._get(\n           ^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 1034, in get\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 852, in request\n    return self._request(\n           ^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 933, in _request\n    raise self._make_status_error_from_response(err.response) from None\n",
+            "innerException": null
+          }
+        }
+      },
+      "inputs": {
+        "chat_history": [],
+        "question": "what is the value of my portfolio"
+      },
+      "output": null,
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00",
+      "root_run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00",
+      "source_run_id": null,
+      "flow_id": "template_chat_flow",
+      "start_time": "2024-02-07T23:15:09.440088Z",
+      "end_time": "2024-02-07T23:15:21.439601Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1707376509.440088,
+          "end_time": 1707376521.439601,
+          "children": [
+            {
+              "name": "my_python_tool",
+              "type": "Tool",
+              "inputs": {
+                "connection": "Default_AzureOpenAI",
+                "input1": "what is the value of my portfolio",
+                "assistant_id": "asst_9t1k8YqEXYdsk6V565grn89e"
+              },
+              "output": null,
+              "start_time": 1707376509.489574,
+              "end_time": 1707376521.193927,
+              "error": {
+                "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+                "type": "NotFoundError"
+              },
+              "children": [],
+              "node_name": "ag_test",
+              "parent_id": "",
+              "id": "e1f77f0c-912c-4128-a198-d12570904061",
+              "system_metrics": {}
+            }
+          ],
+          "system_metrics": {
+            "duration": 11.999513,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0
+          }
+        }
+      ],
+      "variant_id": "",
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 11.999513,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "result": null,
+      "upload_metrics": false
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "ag_test",
+      "flow_run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00",
+      "run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00_ag_test_0",
+      "status": "Failed",
+      "inputs": {
+        "connection": "Default_AzureOpenAI",
+        "input1": "what is the value of my portfolio",
+        "assistant_id": "asst_9t1k8YqEXYdsk6V565grn89e"
+      },
+      "output": null,
+      "metrics": null,
+      "error": {
+        "message": "Execution failure in 'ag_test': (NotFoundError) Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+        "messageFormat": "Execution failure in '{node_name}'.",
+        "messageParameters": {
+          "node_name": "ag_test"
+        },
+        "referenceCode": "Tool/__pf_main__",
+        "code": "UserError",
+        "innerError": {
+          "code": "ToolExecutionError",
+          "innerError": null
+        },
+        "additionalInfo": [
+          {
+            "type": "ToolExecutionErrorDetails",
+            "info": {
+              "type": "NotFoundError",
+              "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+              "traceback": "Traceback (most recent call last):\n  File \"C:\\repo\\AzureOpenAIExamples\\Examples\\promptflow\\finance_assistant_pf\\ag_test.py\", line 90, in my_python_tool\n    assistant = client.beta.assistants.retrieve(assistant_id)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\resources\\beta\\assistants\\assistants.py\", line 140, in retrieve\n    return self._get(\n           ^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 1034, in get\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 852, in request\n    return self._request(\n           ^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 933, in _request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.NotFoundError: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}\n",
+              "filename": "C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py",
+              "lineno": 933,
+              "name": "_request"
+            }
+          }
+        ],
+        "debugInfo": {
+          "type": "ToolExecutionError",
+          "message": "Execution failure in 'ag_test': (NotFoundError) Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+          "stackTrace": "\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 90, in invoke_tool\n    result = self._invoke_tool_with_timer(node, f, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 205, in _invoke_tool_with_timer\n    raise ToolExecutionError(node_name=node_name, module=module) from e\n",
+          "innerException": {
+            "type": "NotFoundError",
+            "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+            "stackTrace": "Traceback (most recent call last):\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\flow_execution_context.py\", line 194, in _invoke_tool_with_timer\n    return f(**kwargs)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\promptflow\\_core\\tracer.py\", line 220, in wrapped\n    output = func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\repo\\AzureOpenAIExamples\\Examples\\promptflow\\finance_assistant_pf\\ag_test.py\", line 90, in my_python_tool\n    assistant = client.beta.assistants.retrieve(assistant_id)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\resources\\beta\\assistants\\assistants.py\", line 140, in retrieve\n    return self._get(\n           ^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 1034, in get\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 852, in request\n    return self._request(\n           ^^^^^^^^^^^^^^\n  File \"C:\\Users\\jacwang\\AppData\\Local\\anaconda3\\envs\\autogen\\Lib\\site-packages\\openai\\_base_client.py\", line 933, in _request\n    raise self._make_status_error_from_response(err.response) from None\n",
+            "innerException": null
+          }
+        }
+      },
+      "parent_run_id": "d8062490-4000-46ee-950f-dbb9eea7dd00_0",
+      "start_time": "2024-02-07T23:15:09.473571Z",
+      "end_time": "2024-02-07T23:15:21.386801Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "my_python_tool",
+          "type": "Tool",
+          "inputs": {
+            "connection": "Default_AzureOpenAI",
+            "input1": "what is the value of my portfolio",
+            "assistant_id": "asst_9t1k8YqEXYdsk6V565grn89e"
+          },
+          "output": null,
+          "start_time": 1707376509.489574,
+          "end_time": 1707376521.193927,
+          "error": {
+            "message": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}",
+            "type": "NotFoundError"
+          },
+          "children": [],
+          "node_name": "ag_test",
+          "parent_id": "",
+          "id": "e1f77f0c-912c-4128-a198-d12570904061",
+          "system_metrics": {}
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 11.91323
+      },
+      "result": null
+    }
+  ]
+}

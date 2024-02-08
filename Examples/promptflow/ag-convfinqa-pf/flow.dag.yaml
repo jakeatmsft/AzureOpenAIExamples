@@ -1,0 +1,29 @@
+id: template_chat_flow
+name: Template Chat Flow
+inputs:
+  chat_history:
+    type: list
+    is_chat_input: false
+    is_chat_history: true
+  question:
+    type: string
+    is_chat_input: true
+outputs:
+  answer:
+    type: string
+    reference: ${autogen_step.output}
+    is_chat_output: true
+nodes:
+- name: autogen_step
+  type: python
+  source:
+    type: code
+    path: autogen_step.py
+  inputs:
+    connection: Default_AzureOpenAI
+    input1: ${inputs.question}
+    modelname: gpt-35-turbo
+  use_variants: false
+node_variants: {}
+environment:
+  python_requirements_txt: requirements.txt

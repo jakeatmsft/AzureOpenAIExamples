@@ -1,0 +1,30 @@
+id: template_chat_flow
+name: Template Chat Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  chat_history:
+    type: list
+    default: []
+    is_chat_input: false
+    is_chat_history: true
+  question:
+    type: string
+    default: what is the value of my portfolio
+    is_chat_input: true
+outputs:
+  answer:
+    type: string
+    reference: ${ag_test.output}
+    is_chat_output: true
+nodes:
+- name: ag_test
+  type: python
+  source:
+    type: code
+    path: ag_test.py
+  inputs:
+    connection: Default_AzureOpenAI
+    input1: ${inputs.question}
+    assistant_id: asst_9t1k8YqEXYdsk6V565grn89e
+  use_variants: false
