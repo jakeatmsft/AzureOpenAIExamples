@@ -1,0 +1,19 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+type: command
+
+name: train_model
+display_name: Train Model
+description: A dummy training component
+version: 0.0.1
+inputs:
+  training_data: 
+    type: uri_folder
+outputs:
+  model_output:
+    type: uri_folder
+code: ./adls_src
+environment: azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu:1
+command: >-
+  python read_folder.py 
+  --training_data ${{inputs.training_data}} 
+ 
