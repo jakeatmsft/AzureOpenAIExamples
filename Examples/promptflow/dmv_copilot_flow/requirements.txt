@@ -1,1 +1,2 @@
-
+promptflow==1.5.0
+promptflow-tools==1.2.0

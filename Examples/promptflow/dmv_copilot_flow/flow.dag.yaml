@@ -1,5 +1,7 @@
 id: template_chat_flow
 name: Template Chat Flow
+environment:
+  python_requirements_txt: requirements.txt
 inputs:
   chat_history:
     type: list
@@ -395,7 +397,7 @@ nodes:
     queries: ${ExtractIntent.output.search_intents}
     queryType: vectorSimpleHybrid
     semanticConfiguration: None
-    topK: 5
+    topK: 3
   use_variants: false
 - name: FormatRetrievedDocuments
   type: python
@@ -453,6 +455,3 @@ nodes:
     reply: ${FormatReply.output}
     retrieveddocs: ${RetrieveDocuments.output}
   use_variants: false
-node_variants: {}
-environment:
-  python_requirements_txt: requirements.txt

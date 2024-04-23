@@ -1,0 +1,18 @@
+2024-04-18 07:45:11 -0700    7572 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-04-18 07:45:11 -0700    7572 execution.flow     INFO     Start to run 8 nodes with concurrency level 16.
+2024-04-18 07:45:11 -0700    7572 execution.flow     INFO     Executing node DetermineIntent. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_DetermineIntent_0
+2024-04-18 07:45:11 -0700    7572 execution.flow     INFO     Executing node FormatConversation. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_FormatConversation_0
+2024-04-18 07:45:11 -0700    7572 execution.flow     INFO     Node FormatConversation completes.
+2024-04-18 07:45:12 -0700    7572 execution.flow     INFO     Node DetermineIntent completes.
+2024-04-18 07:45:12 -0700    7572 execution.flow     INFO     Executing node ExtractIntent. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_ExtractIntent_0
+2024-04-18 07:45:12 -0700    7572 execution.flow     INFO     Node ExtractIntent completes.
+2024-04-18 07:45:12 -0700    7572 execution.flow     INFO     Executing node RetrieveDocuments. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_RetrieveDocuments_0
+2024-04-18 07:45:16 -0700    7572 execution.flow     INFO     Node RetrieveDocuments completes.
+2024-04-18 07:45:16 -0700    7572 execution.flow     INFO     Executing node FormatRetrievedDocuments. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_FormatRetrievedDocuments_0
+2024-04-18 07:45:16 -0700    7572 execution.flow     INFO     Node FormatRetrievedDocuments completes.
+2024-04-18 07:45:16 -0700    7572 execution.flow     INFO     Executing node DetermineReply. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_DetermineReply_0
+2024-04-18 07:45:38 -0700    7572 execution.flow     INFO     Node DetermineReply completes.
+2024-04-18 07:45:38 -0700    7572 execution.flow     INFO     Executing node FormatReply. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_FormatReply_0
+2024-04-18 07:45:38 -0700    7572 execution.flow     INFO     Node FormatReply completes.
+2024-04-18 07:45:38 -0700    7572 execution.flow     INFO     Executing node output_prompt. node run id: f0dece6c-a97c-42c9-a938-a66b821d49f5_output_prompt_0
+2024-04-18 07:45:38 -0700    7572 execution.flow     INFO     Node output_prompt completes.

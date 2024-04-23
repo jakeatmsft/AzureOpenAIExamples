@@ -1,0 +1,178 @@
+{
+  "package": {},
+  "code": {
+    "DetermineIntent.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "query": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "DetermineIntent.jinja2"
+    },
+    "ExtractIntent.py": {
+      "type": "python",
+      "inputs": {
+        "input": {
+          "type": [
+            "string"
+          ]
+        },
+        "query": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "ExtractIntent.py",
+      "function": "extract_intent"
+    },
+    "RetrieveDocuments.py": {
+      "type": "python",
+      "inputs": {
+        "queries": {
+          "type": [
+            "string"
+          ]
+        },
+        "searchConnection": {
+          "type": [
+            "CognitiveSearchConnection"
+          ]
+        },
+        "indexName": {
+          "type": [
+            "string"
+          ]
+        },
+        "queryType": {
+          "type": [
+            "string"
+          ]
+        },
+        "topK": {
+          "type": [
+            "int"
+          ]
+        },
+        "semanticConfiguration": {
+          "type": [
+            "string"
+          ]
+        },
+        "vectorFields": {
+          "type": [
+            "string"
+          ]
+        },
+        "embeddingModelConnection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        },
+        "embeddingModelName": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "RetrieveDocuments.py",
+      "function": "search"
+    },
+    "FormatRetrievedDocuments.py": {
+      "type": "python",
+      "inputs": {
+        "docs": {
+          "type": [
+            "object"
+          ]
+        },
+        "maxTokens": {
+          "type": [
+            "int"
+          ]
+        }
+      },
+      "source": "FormatRetrievedDocuments.py",
+      "function": "format_retrieved_documents"
+    },
+    "FormatConversation.py": {
+      "type": "python",
+      "inputs": {
+        "query": {
+          "type": [
+            "string"
+          ]
+        },
+        "history": {
+          "type": [
+            "list"
+          ]
+        },
+        "maxTokens": {
+          "type": [
+            "int"
+          ]
+        }
+      },
+      "source": "FormatConversation.py",
+      "function": "format_conversation"
+    },
+    "DetermineReply.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "conversation": {
+          "type": [
+            "string"
+          ]
+        },
+        "documentation": {
+          "type": [
+            "string"
+          ]
+        },
+        "user_query": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "DetermineReply.jinja2"
+    },
+    "FormatReply.py": {
+      "type": "python",
+      "inputs": {
+        "reply": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "FormatReply.py",
+      "function": "format_reply"
+    },
+    "output_prompt.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "reply": {
+          "type": [
+            "string"
+          ]
+        },
+        "retrieveddocs": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "output_prompt.jinja2"
+    }
+  }
+}

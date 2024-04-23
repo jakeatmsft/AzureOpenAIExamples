@@ -3,6 +3,7 @@
 Sources :
 
 {% for item in retrieveddocs %}
+    doc_content: {{ item['content'] }}
     doc: {{ item['url'] }}
 
 {% endfor %}
