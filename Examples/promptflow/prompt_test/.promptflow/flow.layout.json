@@ -1,0 +1,25 @@
+{
+  "nodeLayouts": {
+    "inputs": {
+      "x": 455,
+      "y": 42,
+      "index": -1
+    },
+    "outputs": {
+      "x": 385,
+      "y": 310,
+      "index": -1
+    },
+    "unformatted_meta": {
+      "x": 140,
+      "y": 176,
+      "index": 0
+    },
+    "formatted_meta": {
+      "x": 470,
+      "y": 176,
+      "index": 1
+    }
+  },
+  "orientation": "Vertical"
+}

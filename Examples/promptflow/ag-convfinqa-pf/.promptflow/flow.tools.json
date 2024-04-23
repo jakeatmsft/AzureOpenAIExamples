@@ -1,0 +1,27 @@
+{
+  "package": {},
+  "code": {
+    "autogen_step.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        },
+        "connection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        },
+        "modelname": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "autogen_step.py",
+      "function": "my_python_tool"
+    }
+  }
+}

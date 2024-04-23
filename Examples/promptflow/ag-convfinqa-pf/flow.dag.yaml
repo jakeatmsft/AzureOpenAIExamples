@@ -1,5 +1,7 @@
 id: template_chat_flow
 name: Template Chat Flow
+environment:
+  python_requirements_txt: requirements.txt
 inputs:
   chat_history:
     type: list
@@ -8,6 +10,10 @@ inputs:
   question:
     type: string
     is_chat_input: true
+    default: "Read the following text and table, and then answer the last question
+      in a series of questions:\\n- | 2007 | 2006 | 2005\\nweighted average
+      exercise price per share | $ 60.94 | $ 37.84 | $ 25.14\\nQuestions: what
+      was the weighted average exercise price per share in 2007?"
 outputs:
   answer:
     type: string
@@ -24,6 +30,3 @@ nodes:
     input1: ${inputs.question}
     modelname: gpt-35-turbo
   use_variants: false
-node_variants: {}
-environment:
-  python_requirements_txt: requirements.txt

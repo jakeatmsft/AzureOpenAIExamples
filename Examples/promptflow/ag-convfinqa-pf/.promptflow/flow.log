@@ -1,0 +1,198 @@
+2024-04-17 13:23:21 -0700   25932 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-04-17 13:23:21 -0700   25932 execution.flow     INFO     Start to run 1 nodes with concurrency level 16.
+2024-04-17 13:23:21 -0700   25932 execution.flow     INFO     Executing node autogen_step. node run id: 7c052a29-4480-41a6-a50b-37df803604a5_autogen_step_0
+2024-04-17 13:23:28 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:28 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:34 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:34 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:40 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:40 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:48 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:48 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:56 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:23:56 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:02 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:03 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:09 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:09 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:17 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:17 -0700   25932 execution          WARNING  [autogen_step in line 0 (index starts from 0)] stderr> SIGALRM is not supported on Windows. No timeout will be enforced.
+2024-04-17 13:24:22 -0700   25932 execution          WARNING  autogen_step in line 0 has been running for 60 seconds, stacktrace of thread 31456:
+  File "C:\repo\AzureOpenAIExamples\Examples\promptflow\ag-convfinqa-pf\autogen_step.py", line 62, in my_python_tool
+    mathproxyagent.initiate_chat(assistant, problem=math_problem+'' , silent=True,)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 707, in initiate_chat
+    self.send(self.generate_init_message(**context), recipient, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 610, in receive
+    self.send(reply, sender, silent=silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 450, in send
+    recipient.receive(message, self, request_reply, silent)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 608, in receive
+    reply = self.generate_reply(messages=self.chat_messages[sender], sender=sender)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 1330, in generate_reply
+    final, reply = reply_func(self, messages=messages, sender=sender, config=reply_func_tuple["config"])
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\agentchat\conversable_agent.py", line 822, in generate_oai_reply
+    response = client.create(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\oai\client.py", line 581, in create
+    response = client.create(params)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\autogen\oai\client.py", line 265, in create
+    response = completions.create(**params)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\promptflow\_core\openai_injector.py", line 88, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\promptflow\_core\tracer.py", line 404, in wrapped
+    output = func(*args, **kwargs)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\openai\_utils\_utils.py", line 271, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\openai\resources\chat\completions.py", line 643, in create
+    return self._post(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\openai\_base_client.py", line 1091, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\openai\_base_client.py", line 852, in request
+    return self._request(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\openai\_base_client.py", line 880, in _request
+    response = self._client.send(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpx\_client.py", line 915, in send
+    response = self._send_handling_auth(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpx\_client.py", line 943, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpx\_client.py", line 980, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpx\_client.py", line 1016, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpx\_transports\default.py", line 231, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_sync\connection_pool.py", line 251, in handle_request
+    response = connection.handle_request(request)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_sync\http11.py", line 111, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_sync\http11.py", line 176, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_sync\http11.py", line 212, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\ssl.py", line 1296, in recv
+    return self.read(buflen)
+  File "C:\Users\jacwang\AppData\Local\anaconda3\envs\autogen\Lib\ssl.py", line 1169, in read
+    return self._sslobj.read(len)
+
+2024-04-17 13:24:25 -0700   25932 execution.flow     INFO     Node autogen_step completes.

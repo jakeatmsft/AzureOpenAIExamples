@@ -1,0 +1,100 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 1407.5,
+      "y": 42,
+      "index": -1
+    },
+    "outputs": {
+      "x": 1832.5,
+      "y": 846,
+      "index": -1
+    },
+    "gpt_coherence": {
+      "x": 1315,
+      "y": 444,
+      "height": 75,
+      "index": 0
+    },
+    "concat_scores": {
+      "x": 1742.5,
+      "y": 712,
+      "height": 75,
+      "index": 1
+    },
+    "gpt_similarity": {
+      "x": 2732.5,
+      "y": 444,
+      "index": 2
+    },
+    "gpt_relevance": {
+      "x": 2402.5,
+      "y": 444,
+      "height": 75,
+      "index": 3
+    },
+    "gpt_fluency": {
+      "x": 1742.5,
+      "y": 444,
+      "height": 75,
+      "index": 4
+    },
+    "f1_score": {
+      "x": 985,
+      "y": 444,
+      "height": 75,
+      "index": 5
+    },
+    "gpt_groundedness": {
+      "x": 2072.5,
+      "y": 444,
+      "height": 75,
+      "index": 6
+    },
+    "aggregate_variants_results": {
+      "x": 140,
+      "y": 846,
+      "index": 7
+    },
+    "select_metrics": {
+      "x": 1490,
+      "y": 176,
+      "height": 75,
+      "index": 8
+    },
+    "embeded_ground_truth": {
+      "x": 305,
+      "y": 444,
+      "index": 9
+    },
+    "embeded_answer": {
+      "x": 635,
+      "y": 444,
+      "height": 75,
+      "index": 10
+    },
+    "ada_similarity": {
+      "x": 635,
+      "y": 578,
+      "height": 75,
+      "index": 11
+    },
+    "validate_input": {
+      "x": 1402.5,
+      "y": 310,
+      "height": 75,
+      "index": 12
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      -1117.46875,
+      -76.83331888914108
+    ]
+  }
+}

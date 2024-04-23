@@ -1,0 +1,9 @@
+{
+  "f1_score": 0.5,
+  "gpt_coherence": 3.0,
+  "gpt_similarity": 5.0,
+  "gpt_fluency": 5.0,
+  "gpt_relevance": 5.0,
+  "gpt_groundedness": 5.0,
+  "ada_similarity": 0.9313747004677263
+}

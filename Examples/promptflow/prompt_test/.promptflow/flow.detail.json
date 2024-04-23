@@ -1,0 +1,714 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "question": "how old do I have to be to get a license in CA?",
+        "chat_history": []
+      },
+      "output": {
+        "unformatted_meta_reply": "You must be at least 16 years old to get a driver's license in California. [source1]",
+        "formatted_meta_reply": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website]."
+      },
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d",
+      "root_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d",
+      "source_run_id": null,
+      "flow_id": "default_flow_id",
+      "start_time": "2024-04-17T20:17:07.086567Z",
+      "end_time": "2024-04-17T20:17:08.287271Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1713410227.086567,
+          "end_time": 1713410228.287271,
+          "children": [
+            {
+              "name": "AzureOpenAI.chat",
+              "type": "Tool",
+              "inputs": {
+                "prompt": "system:\nAssistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.\nAnswer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question.\nFor tabular information return it as an html table. Do not return markdown format. If the question is not in English, answer in the language used in the question.\nEach source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].If user disengages interaction, politely end conversation.\n\n{% for item in chat_history %}\nuser:\n{{item.inputs.question}}\nassistant:\n{{item.outputs.answer}}\n{% endfor %}\n\nuser:\n{{question}}\n",
+                "deployment_name": "gpt-35-turbo",
+                "max_tokens": 100,
+                "question": "how old do I have to be to get a license in CA?",
+                "chat_history": [],
+                "stream": false
+              },
+              "output": "You must be at least 16 years old to get a driver's license in California. [source1]",
+              "start_time": 1713410227.090537,
+              "end_time": 1713410228.231149,
+              "error": null,
+              "children": [
+                {
+                  "name": "openai.resources.chat.completions.Completions.create",
+                  "type": "LLM",
+                  "inputs": {
+                    "model": "gpt-35-turbo",
+                    "messages": [
+                      {
+                        "role": "system",
+                        "content": "Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.\nAnswer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question.\nFor tabular information return it as an html table. Do not return markdown format. If the question is not in English, answer in the language used in the question.\nEach source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].If user disengages interaction, politely end conversation."
+                      },
+                      {
+                        "role": "user",
+                        "content": "how old do I have to be to get a license in CA?"
+                      }
+                    ],
+                    "temperature": 1.0,
+                    "top_p": 1.0,
+                    "n": 1,
+                    "stream": false,
+                    "stop": null,
+                    "max_tokens": 100,
+                    "presence_penalty": 0.0,
+                    "frequency_penalty": 0.0,
+                    "logit_bias": {},
+                    "user": "",
+                    "response_format": null
+                  },
+                  "output": {
+                    "id": "chatcmpl-9F60I6bSQcoD0WGlXXvSFx00TMVDX",
+                    "choices": [
+                      {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                          "content": "You must be at least 16 years old to get a driver's license in California. [source1]",
+                          "role": "assistant",
+                          "function_call": null,
+                          "tool_calls": null
+                        },
+                        "content_filter_results": {
+                          "custom_blocklists": [],
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ],
+                    "created": 1713385026,
+                    "model": "gpt-35-turbo",
+                    "object": "chat.completion",
+                    "system_fingerprint": null,
+                    "usage": {
+                      "completion_tokens": 22,
+                      "prompt_tokens": 212,
+                      "total_tokens": 234
+                    },
+                    "prompt_filter_results": [
+                      {
+                        "prompt_index": 0,
+                        "content_filter_results": {
+                          "custom_blocklists": [],
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "jailbreak": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "start_time": 1713410227.094574,
+                  "end_time": 1713410228.230088,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "cd4e23f7-116c-4755-96c5-64b4a0921a79",
+                  "id": "72edb4c7-2627-4f6a-999f-ec205badf0d8",
+                  "system_metrics": {
+                    "completion_tokens": 22,
+                    "prompt_tokens": 212,
+                    "total_tokens": 234
+                  }
+                }
+              ],
+              "node_name": "unformatted_meta",
+              "parent_id": "",
+              "id": "cd4e23f7-116c-4755-96c5-64b4a0921a79",
+              "system_metrics": {
+                "completion_tokens": 22,
+                "prompt_tokens": 212,
+                "total_tokens": 234
+              }
+            },
+            {
+              "name": "AzureOpenAI.chat",
+              "type": "Tool",
+              "inputs": {
+                "prompt": "system:\n\n# Task\n - You are an assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. \n - Be brief in your answers.\n - Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. \n - If asking a clarifying question to the user would help, ask the question.\n - For tabular information return it as an html table. Do not return markdown format. \n - If the question is not in English, answer in the language used in the question.\n - Each source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. \n - Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].\n - If user disengages interaction, politely end conversation.\n\n\n{% for item in chat_history %}\nuser:\n{{item.inputs.question}}\nassistant:\n{{item.outputs.answer}}\n{% endfor %}\n\nuser:\n{{question}}\n",
+                "deployment_name": "gpt-35-turbo",
+                "max_tokens": 100,
+                "question": "how old do I have to be to get a license in CA?",
+                "chat_history": [],
+                "stream": false
+              },
+              "output": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website].",
+              "start_time": 1713410227.10106,
+              "end_time": 1713410228.282269,
+              "error": null,
+              "children": [
+                {
+                  "name": "openai.resources.chat.completions.Completions.create",
+                  "type": "LLM",
+                  "inputs": {
+                    "model": "gpt-35-turbo",
+                    "messages": [
+                      {
+                        "role": "system",
+                        "content": "# Task\n - You are an assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. \n - Be brief in your answers.\n - Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. \n - If asking a clarifying question to the user would help, ask the question.\n - For tabular information return it as an html table. Do not return markdown format. \n - If the question is not in English, answer in the language used in the question.\n - Each source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. \n - Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].\n - If user disengages interaction, politely end conversation."
+                      },
+                      {
+                        "role": "user",
+                        "content": "how old do I have to be to get a license in CA?"
+                      }
+                    ],
+                    "temperature": 1.0,
+                    "top_p": 1.0,
+                    "n": 1,
+                    "stream": false,
+                    "stop": null,
+                    "max_tokens": 100,
+                    "presence_penalty": 0.0,
+                    "frequency_penalty": 0.0,
+                    "logit_bias": {},
+                    "user": "",
+                    "response_format": null
+                  },
+                  "output": {
+                    "id": "chatcmpl-9F60IXwZ1x078Yr8BxFfwXLeaDDUD",
+                    "choices": [
+                      {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                          "content": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website].",
+                          "role": "assistant",
+                          "function_call": null,
+                          "tool_calls": null
+                        },
+                        "content_filter_results": {
+                          "custom_blocklists": [],
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ],
+                    "created": 1713385026,
+                    "model": "gpt-35-turbo",
+                    "object": "chat.completion",
+                    "system_fingerprint": null,
+                    "usage": {
+                      "completion_tokens": 26,
+                      "prompt_tokens": 231,
+                      "total_tokens": 257
+                    },
+                    "prompt_filter_results": [
+                      {
+                        "prompt_index": 0,
+                        "content_filter_results": {
+                          "custom_blocklists": [],
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "jailbreak": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "start_time": 1713410227.104071,
+                  "end_time": 1713410228.282269,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "385a026e-d5a1-453d-99c3-024325a2d43e",
+                  "id": "5d41cc7a-4b60-4634-8e79-8d2aeceb8fe5",
+                  "system_metrics": {
+                    "completion_tokens": 26,
+                    "prompt_tokens": 231,
+                    "total_tokens": 257
+                  }
+                }
+              ],
+              "node_name": "formatted_meta",
+              "parent_id": "",
+              "id": "385a026e-d5a1-453d-99c3-024325a2d43e",
+              "system_metrics": {
+                "completion_tokens": 26,
+                "prompt_tokens": 231,
+                "total_tokens": 257
+              }
+            }
+          ],
+          "system_metrics": {
+            "duration": 1.200704,
+            "prompt_tokens": 443,
+            "completion_tokens": 48,
+            "total_tokens": 491
+          }
+        }
+      ],
+      "variant_id": "",
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 1.200704,
+        "prompt_tokens": 443,
+        "completion_tokens": 48,
+        "total_tokens": 491
+      },
+      "result": {
+        "unformatted_meta_reply": "You must be at least 16 years old to get a driver's license in California. [source1]",
+        "formatted_meta_reply": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website]."
+      },
+      "upload_metrics": false
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "unformatted_meta",
+      "flow_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d",
+      "run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d_unformatted_meta_0",
+      "status": "Completed",
+      "inputs": {
+        "deployment_name": "gpt-35-turbo",
+        "max_tokens": 100,
+        "question": "how old do I have to be to get a license in CA?",
+        "chat_history": []
+      },
+      "output": "You must be at least 16 years old to get a driver's license in California. [source1]",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d_0",
+      "start_time": "2024-04-17T20:17:07.089538Z",
+      "end_time": "2024-04-17T20:17:08.234100Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "AzureOpenAI.chat",
+          "type": "Tool",
+          "inputs": {
+            "prompt": "system:\nAssistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.\nAnswer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question.\nFor tabular information return it as an html table. Do not return markdown format. If the question is not in English, answer in the language used in the question.\nEach source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].If user disengages interaction, politely end conversation.\n\n{% for item in chat_history %}\nuser:\n{{item.inputs.question}}\nassistant:\n{{item.outputs.answer}}\n{% endfor %}\n\nuser:\n{{question}}\n",
+            "deployment_name": "gpt-35-turbo",
+            "max_tokens": 100,
+            "question": "how old do I have to be to get a license in CA?",
+            "chat_history": [],
+            "stream": false
+          },
+          "output": "You must be at least 16 years old to get a driver's license in California. [source1]",
+          "start_time": 1713410227.090537,
+          "end_time": 1713410228.231149,
+          "error": null,
+          "children": [
+            {
+              "name": "openai.resources.chat.completions.Completions.create",
+              "type": "LLM",
+              "inputs": {
+                "model": "gpt-35-turbo",
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.\nAnswer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. If asking a clarifying question to the user would help, ask the question.\nFor tabular information return it as an html table. Do not return markdown format. If the question is not in English, answer in the language used in the question.\nEach source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].If user disengages interaction, politely end conversation."
+                  },
+                  {
+                    "role": "user",
+                    "content": "how old do I have to be to get a license in CA?"
+                  }
+                ],
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "n": 1,
+                "stream": false,
+                "stop": null,
+                "max_tokens": 100,
+                "presence_penalty": 0.0,
+                "frequency_penalty": 0.0,
+                "logit_bias": {},
+                "user": "",
+                "response_format": null
+              },
+              "output": {
+                "id": "chatcmpl-9F60I6bSQcoD0WGlXXvSFx00TMVDX",
+                "choices": [
+                  {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                      "content": "You must be at least 16 years old to get a driver's license in California. [source1]",
+                      "role": "assistant",
+                      "function_call": null,
+                      "tool_calls": null
+                    },
+                    "content_filter_results": {
+                      "custom_blocklists": [],
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "profanity": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ],
+                "created": 1713385026,
+                "model": "gpt-35-turbo",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                  "completion_tokens": 22,
+                  "prompt_tokens": 212,
+                  "total_tokens": 234
+                },
+                "prompt_filter_results": [
+                  {
+                    "prompt_index": 0,
+                    "content_filter_results": {
+                      "custom_blocklists": [],
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "jailbreak": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "profanity": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "start_time": 1713410227.094574,
+              "end_time": 1713410228.230088,
+              "error": null,
+              "children": [],
+              "node_name": null,
+              "parent_id": "cd4e23f7-116c-4755-96c5-64b4a0921a79",
+              "id": "72edb4c7-2627-4f6a-999f-ec205badf0d8",
+              "system_metrics": {
+                "completion_tokens": 22,
+                "prompt_tokens": 212,
+                "total_tokens": 234
+              }
+            }
+          ],
+          "node_name": "unformatted_meta",
+          "parent_id": "",
+          "id": "cd4e23f7-116c-4755-96c5-64b4a0921a79",
+          "system_metrics": {
+            "completion_tokens": 22,
+            "prompt_tokens": 212,
+            "total_tokens": 234
+          }
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "completion_tokens": 22,
+        "prompt_tokens": 212,
+        "total_tokens": 234,
+        "duration": 1.144562
+      },
+      "result": "You must be at least 16 years old to get a driver's license in California. [source1]"
+    },
+    {
+      "node": "formatted_meta",
+      "flow_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d",
+      "run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d_formatted_meta_0",
+      "status": "Completed",
+      "inputs": {
+        "deployment_name": "gpt-35-turbo",
+        "max_tokens": 100,
+        "question": "how old do I have to be to get a license in CA?",
+        "chat_history": []
+      },
+      "output": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website].",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "1b587084-d370-44e6-ba18-ffe4b42b321d_0",
+      "start_time": "2024-04-17T20:17:07.099535Z",
+      "end_time": "2024-04-17T20:17:08.284290Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "AzureOpenAI.chat",
+          "type": "Tool",
+          "inputs": {
+            "prompt": "system:\n\n# Task\n - You are an assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. \n - Be brief in your answers.\n - Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. \n - If asking a clarifying question to the user would help, ask the question.\n - For tabular information return it as an html table. Do not return markdown format. \n - If the question is not in English, answer in the language used in the question.\n - Each source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. \n - Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].\n - If user disengages interaction, politely end conversation.\n\n\n{% for item in chat_history %}\nuser:\n{{item.inputs.question}}\nassistant:\n{{item.outputs.answer}}\n{% endfor %}\n\nuser:\n{{question}}\n",
+            "deployment_name": "gpt-35-turbo",
+            "max_tokens": 100,
+            "question": "how old do I have to be to get a license in CA?",
+            "chat_history": [],
+            "stream": false
+          },
+          "output": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website].",
+          "start_time": 1713410227.10106,
+          "end_time": 1713410228.282269,
+          "error": null,
+          "children": [
+            {
+              "name": "openai.resources.chat.completions.Completions.create",
+              "type": "LLM",
+              "inputs": {
+                "model": "gpt-35-turbo",
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "# Task\n - You are an assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. \n - Be brief in your answers.\n - Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know. Do not generate answers that don't use the sources below. \n - If asking a clarifying question to the user would help, ask the question.\n - For tabular information return it as an html table. Do not return markdown format. \n - If the question is not in English, answer in the language used in the question.\n - Each source has a name followed by colon and the actual information, always include the source name for each fact you use in the response. \n - Use square brackets to reference the source, for example [info1.txt]. Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].\n - If user disengages interaction, politely end conversation."
+                  },
+                  {
+                    "role": "user",
+                    "content": "how old do I have to be to get a license in CA?"
+                  }
+                ],
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "n": 1,
+                "stream": false,
+                "stop": null,
+                "max_tokens": 100,
+                "presence_penalty": 0.0,
+                "frequency_penalty": 0.0,
+                "logit_bias": {},
+                "user": "",
+                "response_format": null
+              },
+              "output": {
+                "id": "chatcmpl-9F60IXwZ1x078Yr8BxFfwXLeaDDUD",
+                "choices": [
+                  {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                      "content": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website].",
+                      "role": "assistant",
+                      "function_call": null,
+                      "tool_calls": null
+                    },
+                    "content_filter_results": {
+                      "custom_blocklists": [],
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "profanity": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ],
+                "created": 1713385026,
+                "model": "gpt-35-turbo",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                  "completion_tokens": 26,
+                  "prompt_tokens": 231,
+                  "total_tokens": 257
+                },
+                "prompt_filter_results": [
+                  {
+                    "prompt_index": 0,
+                    "content_filter_results": {
+                      "custom_blocklists": [],
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "jailbreak": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "profanity": {
+                        "filtered": false,
+                        "detected": false
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "start_time": 1713410227.104071,
+              "end_time": 1713410228.282269,
+              "error": null,
+              "children": [],
+              "node_name": null,
+              "parent_id": "385a026e-d5a1-453d-99c3-024325a2d43e",
+              "id": "5d41cc7a-4b60-4634-8e79-8d2aeceb8fe5",
+              "system_metrics": {
+                "completion_tokens": 26,
+                "prompt_tokens": 231,
+                "total_tokens": 257
+              }
+            }
+          ],
+          "node_name": "formatted_meta",
+          "parent_id": "",
+          "id": "385a026e-d5a1-453d-99c3-024325a2d43e",
+          "system_metrics": {
+            "completion_tokens": 26,
+            "prompt_tokens": 231,
+            "total_tokens": 257
+          }
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "completion_tokens": 26,
+        "prompt_tokens": 231,
+        "total_tokens": 257,
+        "duration": 1.184755
+      },
+      "result": "In California, you must be at least 16 years old to obtain a driver's license [source: California DMV website]."
+    }
+  ]
+}

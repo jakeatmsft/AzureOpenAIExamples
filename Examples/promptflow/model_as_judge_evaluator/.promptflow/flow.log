@@ -1,0 +1,38 @@
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Start to run 12 nodes with concurrency level 16.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node select_metrics. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_select_metrics_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Node select_metrics completes.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node validate_input. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_validate_input_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Node validate_input completes.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'gpt_coherence' will be executed because the activate condition is met, i.e. '${validate_input.output.gpt_coherence}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'gpt_similarity' will be executed because the activate condition is met, i.e. '${validate_input.output.gpt_similarity}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'gpt_relevance' will be executed because the activate condition is met, i.e. '${validate_input.output.gpt_relevance}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'gpt_fluency' will be executed because the activate condition is met, i.e. '${validate_input.output.gpt_fluency}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'f1_score' will be executed because the activate condition is met, i.e. '${validate_input.output.f1_score}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'gpt_groundedness' will be executed because the activate condition is met, i.e. '${validate_input.output.gpt_groundedness}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'embeded_ground_truth' will be executed because the activate condition is met, i.e. '${validate_input.output.ada_similarity}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     The node 'embeded_answer' will be executed because the activate condition is met, i.e. '${validate_input.output.ada_similarity}' is equal to 'True'.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node gpt_coherence. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_gpt_coherence_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node gpt_similarity. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_gpt_similarity_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node gpt_relevance. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_gpt_relevance_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node gpt_fluency. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_gpt_fluency_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node f1_score. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_f1_score_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node gpt_groundedness. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_gpt_groundedness_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Node f1_score completes.
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node embeded_ground_truth. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_embeded_ground_truth_0
+2024-04-08 21:13:05 +0000   40780 execution.flow     INFO     Executing node embeded_answer. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_embeded_answer_0
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node gpt_relevance completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node gpt_similarity completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node gpt_groundedness completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node gpt_coherence completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node gpt_fluency completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node embeded_ground_truth completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node embeded_answer completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     The node 'ada_similarity' will be executed because the activate condition is met, i.e. '${validate_input.output.ada_similarity}' is equal to 'True'.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Executing node ada_similarity. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_ada_similarity_0
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node ada_similarity completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Executing node concat_scores. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_concat_scores_0
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node concat_scores completes.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Start to run 1 nodes with concurrency level 16.
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Executing node aggregate_variants_results. node run id: ab9522af-1236-4fd9-aeab-e7bf848d2b59_aggregate_variants_results_reduce
+2024-04-08 21:13:06 +0000   40780 execution.flow     INFO     Node aggregate_variants_results completes.

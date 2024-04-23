@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "formatted_meta": {
+      "variant_0": {
+        "inputs": {
+          "question": [],
+          "chat_history": []
+        }
+      }
+    },
+    "unformatted_meta": {
+      "variant_0": {
+        "inputs": {
+          "question": [],
+          "chat_history": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+2024-04-18 07:31:22 -0700   20828 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-04-18 07:31:22 -0700   20828 execution.flow     INFO     Start to run 1 nodes with concurrency level 16.
+2024-04-18 07:31:22 -0700   20828 execution.flow     INFO     Executing node chat. node run id: d517789a-3106-4079-b5ec-0b752ab42dac_chat_0
+2024-04-18 07:31:24 -0700   20828 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
+2024-04-18 07:31:24 -0700   20828 execution.flow     INFO     Node chat completes.
+2024-04-18 07:31:38 -0700   20828 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-04-18 07:31:38 -0700   20828 execution.flow     INFO     Start to run 1 nodes with concurrency level 16.
+2024-04-18 07:31:38 -0700   20828 execution.flow     INFO     Executing node chat. node run id: 7d66c026-7f12-4bd1-b992-82cb60a1274e_chat_0
+2024-04-18 07:31:38 -0700   20828 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
+2024-04-18 07:31:38 -0700   20828 execution.flow     INFO     Node chat completes.
