@@ -2,3 +2,4 @@
 *.cfg
 .ipynb_checkpoints
 *.pyc
+Examples/metrics/.env
